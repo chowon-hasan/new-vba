@@ -1,0 +1,230 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Vos styles personnalisés ici */
+
+/* globals.css */
+body {
+  font-family: "Poppins", sans-serif; /* Police par défaut pour le texte */
+
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+}
+
+nextjs-portal {
+  display: none;
+}
+
+.p {
+  font-family: "Poppins", sans-serif; /* Police pour le texte spécifique */
+}
+
+.button {
+  font-family: "Poppins", sans-serif; /* Police pour les titres */
+}
+
+/* Vous pouvez ajouter d'autres règles CSS ici pour Mulish ou d'autres styles */
+.link-bg {
+  background-color: transparent; /* Ou la couleur de fond souhaitée */
+  display: inline-block;
+  padding: 5px 10px; /* Ajustez selon vos besoins */
+  margin: 5px 0; /* Ajustez selon vos besoins */
+  transition: background-color 0.3s ease; /* Ajoutez une transition si vous voulez un effet de fondu */
+}
+
+.link-bg:hover {
+  background-color: orangevba;
+}
+.produits1 {
+  background-image: linear-gradient(#0000004f, #00000049),
+    url(/images/productBG.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.produits {
+  background-image: linear-gradient(#0000004f, #00000049),
+    url(/images/productBG.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.carsCategory {
+  background-image: linear-gradient(#0000004f, #00000049),
+    url(/images/productBG.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.compare {
+  background-image: linear-gradient(#0000004f, #00000049),
+    url(/images/productBG.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+.checker {
+  background-image: linear-gradient(#0000004f, #00000049),
+    url(/images/checker2.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+.headButtonRes {
+  display: none;
+}
+.carBannerCont {
+  width: 75%;
+  margin: 30px 0;
+}
+.bannerCars {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+.compareParent {
+  width: 50%;
+  margin: auto;
+}
+.compareCont {
+  /* display: flex; */
+}
+.formLabel {
+  width: 25%;
+  background-color: #ffa616;
+  color: #fff;
+  text-align: center;
+  padding: 12px 0;
+  border-radius: 5px 0 0 5px;
+}
+.formSelect {
+  width: 100%;
+  padding: 0 10px 0 10px;
+  border-radius: 0 5px 5px 0;
+}
+.formBox {
+  background-color: #fff;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+:focus-visible {
+  outline: none;
+}
+.formBoxButton {
+  padding: 12px 30px;
+  background-color: #ffa616;
+  color: #fff;
+  margin-top: 10px;
+  width: 20%;
+  text-align: center;
+  border-radius: 5px;
+}
+.labandsel {
+  display: flex;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 320px) and (max-width: 575px) {
+  .headButton {
+    display: none;
+  }
+  .headButtonRes {
+    display: inherit;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .bannerSection {
+    padding: 100px 10px !important;
+  }
+  .bannerMain {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .bannerMain h1 {
+    font-size: 30px;
+  }
+  .bannerMain h2 {
+    font-size: 22px;
+  }
+  .bannerCars {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .carBannerCont {
+    width: 100%;
+    margin: 30px 0;
+    padding: 0 10px;
+  }
+  .carsCard {
+    width: 150px !important;
+  }
+  .viddeo {
+    width: 100% !important;
+    padding: 10px;
+  }
+  .myVideo {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .buttons {
+    padding: 12px 20px;
+    font-size: 14px;
+  }
+  .myFooter {
+    padding: 20px 10px;
+  }
+  .product h2 {
+    font-size: 24px;
+  }
+  .product h1,
+  .contactTitle {
+    font-size: 30px;
+  }
+  .produits {
+    padding: 100px 15px !important;
+  }
+  .progTitle {
+    font-size: 30px;
+  }
+  .checker {
+    padding: 80px 15px;
+  }
+  .checker h2 {
+    font-size: 26px;
+  }
+  .SearchInput,
+  .contactForm,
+  .conatctTitleBody {
+    width: 100% !important;
+  }
+  .searchCont {
+    flex-direction: column-reverse;
+  }
+  .carsCategory {
+    padding: 100px 15px;
+  }
+  .capture {
+    margin-top: 15px;
+  }
+  .textCenter {
+    text-align: center;
+  }
+  .installForm {
+    width: 100%;
+  }
+  .buttons {
+    text-align: start;
+  }
+}

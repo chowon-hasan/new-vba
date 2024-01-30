@@ -1,0 +1,18 @@
+# o2switch pagespeed start / DO NOT REMOVE OR EDIT
+<IfModule pagespeed_module>
+ModPagespeed on
+ModPagespeedRewriteLevel PassThrough
+ModPagespeedEnableFilters collapse_whitespace,extend_cache,hint_preload_subresources,inline_css,lazyload_images
+</IfModule>
+# o2switch pagespeed end / DO NOT REMOVE OR EDIT
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
+PassengerAppRoot "/home/sc3lebr3702/laboiteautomatique.com"
+PassengerBaseURI "/"
+PassengerNodejs "/home/sc3lebr3702/nodevenv/laboiteautomatique.com/20/bin/node"
+PassengerAppType node
+PassengerStartupFile server.js
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END
+# DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION BEGIN
+<IfModule Litespeed>
+</IfModule>
+# DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION END
