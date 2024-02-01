@@ -157,7 +157,7 @@ export default function Header() {
                 </Link>
                 <Link href="/compare">
                   <button className="bg-[#418FFF] ms-3 text-white py-3 px-5 rounded-md hover:bg-[#B1D8FF] hover:text-black">
-                    Sélection véhicule
+                    Véhicule
                   </button>
                 </Link>
               </div>
@@ -171,7 +171,7 @@ export default function Header() {
               </Link>
               <Link href="/compare">
                 <button className="bg-[#EE9D35] ms-3 text-white py-3 px-8 rounded-md hover:bg-[#B1D8FF] hover:text-black">
-                  Sélection véhicule
+                  Véhicule
                 </button>
               </Link>
             </div>

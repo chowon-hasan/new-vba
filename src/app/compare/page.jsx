@@ -97,7 +97,7 @@ const ComparePage = () => {
     Ford: [
       {
         name: "Ford Focus",
-        years: ["2008-2015"],
+        years: ["2008", "2009"],
         versions: ["1.6 Diesel", "1.6 Essence"],
         machines: ["toute cylindrée"],
         href: "/produits/essence/ford-focus",

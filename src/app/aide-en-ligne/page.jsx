@@ -59,7 +59,7 @@ const MiseEnLigne = () => {
       description:
         "Circuit moteur embrayage 2 problème calculateur et/ou embrayage",
       subTitle: "clutch 2  motor circuit short circuit to earth",
-      aide: "",
+      aide: "problème calculateur et/ou embrayage",
     },
     {
       code: "DTC180401",
@@ -213,7 +213,7 @@ const MiseEnLigne = () => {
         "circuit moteur - tambour de sélection vitesses 2 - circuit ouvert",
       subTitle:
         "Suggests an open circuit in the motor for the gear selection drum of gear 2.",
-      aide: "",
+      aide: "problème calculateur",
     },
     {
       code: "DF442",
@@ -221,7 +221,7 @@ const MiseEnLigne = () => {
         "circuit moteur tambour de selection vitesse 2 - tension d'alimentation hors tolérance",
       subTitle:
         "Points to a voltage supply issue that is out of tolerance for the motor of the gear selection drum for gear 2",
-      aide: "",
+      aide: "vérifier l'état de la batterie + peut être problème calculateur",
     },
     {
       code: "DF436",
@@ -229,26 +229,26 @@ const MiseEnLigne = () => {
         "Tambour de selection de vitesse 2 - detection signal hors limite basse ou haute",
       subTitle:
         "gear 2 selection signal detection that is out of the expected range, either too high or too low",
-      aide: "",
+      aide: "vérifier l'état de la batterie + peut être problème calculateur",
     },
     {
       code: "DF435",
       description:
         "Tambour de selection de vitesses 2 - Detection signal hors limite basse ou haute ",
       subTitle: "related to gear 2 selection signal detection",
-      aide: "",
+      aide: "problème calculateur",
     },
     {
       code: "DF232",
       description: "Calculateur - Anomalie électronique interne",
       subTitle: "P0606 - PCM Processor Fault",
-      aide: "",
+      aide: "problème calculateur",
     },
     {
       code: "DF421",
       description: "Tension batterie - sous tension ",
       subTitle: "P0560 - System Voltage Malfunction",
-      aide: "",
+      aide: "vérifier l'état de la batterie + peut être problème calculateur",
     },
     {
       code: "DTC191001",
@@ -256,7 +256,7 @@ const MiseEnLigne = () => {
         "Circuit capteur regime entrée 1 boite - Anomalie électronique interne-",
       subTitle:
         "Internal electronic anomaly in the sensor for gear entry in the transmission.",
-      aide: "",
+      aide: "problème calculateur. Controler le programme de la boite automatique",
     },
   ];
 
@@ -404,10 +404,11 @@ const MiseEnLigne = () => {
 
                           <a
                             href="#"
-                            className="text-orangevba font-semibold"
+                            className=" font-semibold"
                             onClick={() => toggleRecommendation(code.code)}
                           >
-                            Recommendation
+                            Clicker <span className="text-orangevba">Ici</span>{" "}
+                            pour obtenir de l'aide
                           </a>
                           {selectedCode === code.code && (
                             <span className="text-orangevba font-semibold">
