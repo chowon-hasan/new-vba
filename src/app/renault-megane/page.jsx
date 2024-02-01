@@ -49,7 +49,7 @@ const RenaultMegane = () => {
               </div>
 
               <div className="flex justify-center gap-5">
-                <div className="lg:w-1/2  border border-[#FFA616] rounded-md text-center py-2 px-5 shadow-2xl">
+                <div className="lg:w-1/2  border border-[#EE9D35] rounded-md text-center py-2 px-5 shadow-2xl">
                   <Link
                     href="/produits/diesel-a-partir-de/renault-megane"
                     className="hover:underline hover:text-orangevba"
@@ -60,13 +60,13 @@ const RenaultMegane = () => {
                     </h2>
                   </Link>
                 </div>
-                <div className="w-1/2 border border-[#FFA616] rounded-md text-center py-2 px-5 shadow-2xl">
+                <div className="w-1/2 border border-[#EE9D35] rounded-md text-center py-2 px-5 shadow-2xl">
                   <Link
                     className="hover:underline hover:text-orangevba"
                     href="/produits/essence/renault-megane"
                   >
                     <h2>
-                      1.2 <br /> Essence <br />A partir de 2011
+                      1.2 <br /> Essence <br />à partir de 2011
                     </h2>
                   </Link>
                 </div>

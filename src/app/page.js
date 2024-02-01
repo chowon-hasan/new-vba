@@ -180,12 +180,12 @@ const Home = () => {
 
                 <div className="buttons">
                   <Link href="/produits">
-                    <button className="buttons bg-[#FFA616] text-white capitalize py-3 px-[40px] rounded-md hover:bg-[#B1D8FF] hover:text-white">
+                    <button className="buttons bg-[#EE9D35] text-white capitalize py-3 px-[40px] rounded-md hover:bg-[#B1D8FF] hover:text-white">
                       DISPONIBILITE
                     </button>
                   </Link>
                   <Link href="/aide-en-ligne">
-                    <button className="buttons bg-[#B2164E] text-white capitalize ms-3 py-3 px-[38px] rounded-md hover:bg-[#B1D8FF] hover:text-white">
+                    <button className="buttons bg-[#287FFE] text-white capitalize ms-3 py-3 px-[38px] rounded-md hover:bg-[#B1D8FF] hover:text-white">
                       AIDE EN LIGNE
                     </button>
                   </Link>
@@ -224,7 +224,7 @@ const Home = () => {
             </div>
             <div className="viddeo lg:w-1/2">
               <video
-                style={{ width: "778px", height: "450px", objectFit: "cover" }}
+                style={{ width: "778px", height: "400px", objectFit: "cover" }}
                 autoPlay
                 loop
                 muted

@@ -48,29 +48,29 @@ const RenaultClio = () => {
                 </h2>
               </div>
               <div className="flex justify-center gap-5">
-                <div className="w-1/2 border border-[#FFA616] rounded-md text-center py-2 px-5 shadow-2xl">
+                <div className="w-1/2 border border-[#EE9D35] rounded-md text-center py-2 px-5 shadow-2xl">
                   <Link
                     href="/produits/essence/renault-clioiv"
                     className="hover:underline hover:text-orangevba"
                   >
                     <h2>
-                      1.2 <br /> Essence <br />A partir de 2012
+                      1.2 <br /> Essence <br />à partir de 2012
                     </h2>
                   </Link>
                 </div>
-                <div className="w-1/2 border border-[#FFA616] rounded-md text-center py-2 px-5 shadow-2xl">
+                <div className="w-1/2 border border-[#EE9D35] rounded-md text-center py-2 px-5 shadow-2xl">
                   <Link
                     className="hover:underline hover:text-orangevba"
                     href="/produits/diesel-a-partir-de/renault-clioiv"
                   >
                     <h2>
-                      1.5 <br /> Diesel <br />A patir de 2012
+                      1.5 <br /> Diesel <br />à patir de 2012
                     </h2>
                   </Link>
                 </div>
               </div>
               {/* <div className="flex justify-center  gap-5 mt-5">
-                <div className="w-1/2 border border-[#FFA616] rounded-md text-center py-2 px-5 shadow-2xl">
+                <div className="w-1/2 border border-[#EE9D35] rounded-md text-center py-2 px-5 shadow-2xl">
                   <Link
                     href="/produits/essence-a-partir-de/renault-clioiv"
                     className="hover:underline  hover:text-orangevba"
@@ -80,7 +80,7 @@ const RenaultClio = () => {
                     </h2>
                   </Link>
                 </div>
-                <div className="w-1/2 border border-[#FFA616] rounded-md text-center py-2 px-5 shadow-2xl">
+                <div className="w-1/2 border border-[#EE9D35] rounded-md text-center py-2 px-5 shadow-2xl">
                   <Link
                     className="hover:underline hover:text-orangevba"
                     href="/produits/diesel-a-partir-de/renault-clioiv"

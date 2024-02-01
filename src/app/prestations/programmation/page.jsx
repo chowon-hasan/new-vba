@@ -15,7 +15,7 @@ export default function Clonage() {
         {/* Texte au-dessus de l'image */}
         <main className="flex min-h-screen items-center lg:p-8 sm:p-5 md-8 justify-center relative text-black">
           <div className="bg-white/95 border-2 border-orangevba rounded-2xl p-8 w-[800px] text-center">
-            <p className="progTitle text-4xl pb-4 font-bold">
+            <p className="progTitle headingText pb-4 font-bold">
               Services de Programmation
             </p>
             <div className="mb-8 text-lg">
@@ -64,7 +64,7 @@ export default function Clonage() {
               ce fait uniquement en IDF ou en région voisine.
             </p>
             <Link
-              className="bg-[#FFA616] text-white py-3 px-5 rounded-md hover:bg-[#B1D8FF] hover:text-black"
+              className="bg-[#EE9D35] text-white py-3 px-5 rounded-md hover:bg-[#B1D8FF] hover:text-black"
               href="/prestations/installation"
             >
               Contactez-nous

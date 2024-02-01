@@ -48,7 +48,7 @@ const RenaultFluence = () => {
                 </h2>
               </div>
               <div className="flex justify-start gap-5">
-                <div className="w-1/2 border border-[#FFA616] rounded-md text-center py-2 px-5 shadow-2xl">
+                <div className="w-1/2 border border-[#EE9D35] rounded-md text-center py-2 px-5 shadow-2xl">
                   <Link
                     href="/produits/diesel-a-partir-de/renault-fluence"
                     className="hover:underline hover:text-orangevba"
@@ -57,7 +57,7 @@ const RenaultFluence = () => {
                       1.5
                       <br />
                       Diesel
-                      <br />A partir de 2009
+                      <br />à partir de 2009
                     </h2>
                   </Link>{" "}
                 </div>

@@ -47,23 +47,23 @@ const RenaultCapture = () => {
               </div>
 
               <div className="flex justify-center gap-5">
-                <div className="w-1/2 border border-[#FFA616] rounded-md text-center py-2 px-5 shadow-2xl">
+                <div className="w-1/2 border border-[#EE9D35] rounded-md text-center py-2 px-2 shadow-2xl">
                   <Link
                     href="/produits/essence/renault-captur"
                     className="hover:underline hover:text-orangevba"
                   >
                     <h2>
-                      1.2 <br /> Essence <br />A partir de 2013
+                      1.2 <br /> Essence <br />à partir de 2013
                     </h2>
                   </Link>
                 </div>
-                <div className="w-1/2 border border-[#FFA616] rounded-md text-center py-2 px-5 shadow-2xl">
+                <div className="w-1/2 border border-[#EE9D35] rounded-md text-center py-2 px-5 shadow-2xl">
                   <Link
                     className="hover:underline hover:text-orangevba"
                     href="/produits/diesel-a-partir-de/renault-captur"
                   >
                     <h2>
-                      1.5 <br /> Diesel <br />A partir de 2013
+                      1.5 <br /> Diesel <br />à partir de 2013
                     </h2>
                   </Link>
                 </div>

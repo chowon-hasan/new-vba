@@ -301,7 +301,7 @@ const MiseEnLigne = () => {
     <section className="py-[60px] checker">
       <div className="md:px-24 mx-auto">
         .
-        <h2 className="md:w-[350px] mx-auto mt-8  p-4 rounded-2xl bg-[#FFA616] text-white text-[30px] font-semibold  text-center">
+        <h2 className="md:w-[350px] mx-auto mt-8  p-4 rounded-2xl bg-[#EE9D35] text-white text-[30px] font-semibold  text-center">
           - Aide en ligne -
         </h2>
         {/* Conteneur principal */}
@@ -362,7 +362,7 @@ const MiseEnLigne = () => {
             <div className="md:w-[420px] mt-8">
               {/* Barre de recherche */}
               <div className="md:w-[420px]">
-                <p className="bg-[#FFA616] text-white items-center text-[16px] border border-1 rounded border-[#FFA616]  mx-auto p-2 mb-3">
+                <p className="bg-[#EE9D35] text-white items-center text-[16px] border border-1 rounded border-[#EE9D35]  mx-auto p-2 mb-3">
                   Rechercher code erreur ou description:{" "}
                 </p>
                 <div className="">
@@ -377,7 +377,7 @@ const MiseEnLigne = () => {
                   <div className="">
                     <button
                       onClick={handleSearch}
-                      className="bg-[#FFA616] text-[16px] text-white py-3 px-8 rounded-md hover:bg-[#B1D8FF] hover:text-black"
+                      className="bg-[#EE9D35] text-[16px] text-white py-3 px-8 rounded-md hover:bg-[#B1D8FF] hover:text-black"
                     >
                       Rechercher
                     </button>
@@ -419,12 +419,12 @@ const MiseEnLigne = () => {
                             Pour plus d'informations, merci de nous
                           </p>
                           <div className="flex items-center mt-5">
-                            <p>Contacter</p>
+                            {/* <p>Contacter</p> */}
                             <Link
                               href="/contact"
-                              className="bg-[#FFA616] text-[16px] ms-5 text-white py-2 px-4 rounded-md hover:bg-[#B1D8FF] hover:text-black"
+                              className="bg-[#EE9D35] text-[16px] text-white py-2 px-4 rounded-md hover:bg-[#B1D8FF] hover:text-black"
                             >
-                              Nous contacter
+                              Contactez - nous
                             </Link>
                           </div>
                         </div>
@@ -442,9 +442,9 @@ const MiseEnLigne = () => {
                       </p>
                       <Link
                         href="/contact"
-                        className="bg-[#FFA616] text-white py-3 px-5 text-[16px] rounded-md hover:bg-[#B1D8FF] hover:text-black"
+                        className="bg-[#EE9D35] text-white py-3 px-5 text-[16px] rounded-md hover:bg-[#B1D8FF] hover:text-black"
                       >
-                        Nous contacter
+                        Contactez - nous
                       </Link>
                       {generateH2Tags()}
                     </div>

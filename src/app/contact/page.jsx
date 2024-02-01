@@ -70,8 +70,8 @@ const Contact = () => {
             </title>
           </Head> */}
 
-          <div className="conatctTitleBody bg-[#FFA616] md:w-[846px] py-4 text-center rounded-md mb-5">
-            <h1 className="contactTitle text-[40px] font-bold  my-3 text-white">
+          <div className="conatctTitleBody bg-[#EE9D35] md:w-[846px] py-4 text-center rounded-md mb-5">
+            <h1 className="contactTitle headingText font-bold  my-3 text-white">
               Contactez-nous
             </h1>
           </div>

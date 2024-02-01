@@ -12,7 +12,7 @@ const ComparePage = () => {
   const [selectedVersion, setSelectedVersion] = useState(null);
   const [selectedMachine, setSelectedMachine] = useState(null);
 
-  const brands = ["Renault"];
+  const brands = ["Renault", "Ford"];
 
   const models = {
     Renault: [
@@ -33,7 +33,7 @@ const ComparePage = () => {
       {
         name: "Captur",
         years: ["2013"],
-        versions: ["0.9 TCe", "1.5 dCi"],
+        versions: ["1.2 T", "1.2 TCe", "1.2TCe - 120", "1.5 dCi", "1.5 dCi 90"],
         machines: ["898 ccm, 66 KW", "1461 ccm, 66 KW"],
         href: "/product/clio",
       },
@@ -94,6 +94,15 @@ const ComparePage = () => {
         href: "/product/clio",
       },
     ],
+    Ford: [
+      {
+        name: "Ford Focus",
+        years: ["2008-2015"],
+        versions: ["1.6 Diesel", "1.6 Essence"],
+        machines: ["toute cylindrée"],
+        href: "/produits/essence/ford-focus",
+      },
+    ],
   };
 
   const handleBrandChange = (brand) => {
@@ -130,19 +139,19 @@ const ComparePage = () => {
     <section className="md:py-[200px] compare">
       <div className="container mx-auto">
         <h2 className="text-[30px] text-center text-white mb-5">
-          TROUVEZ VOTRE BOITE AUTOMATIQUE
+          CHERCHEZ VOTRE VEHICULE
         </h2>
         <div className="compareParent">
           <div className="compareCont">
             <div className="labandsel">
-              <label className="formLabel">Select Brand:</label>
+              <label className="formLabel">Marque:</label>
               <select
                 className="formSelect"
                 onChange={(e) => handleBrandChange(e.target.value)}
                 value={selectedBrand || ""}
               >
                 <option value="" disabled>
-                  Select a brand
+                  Sélectionnez marque
                 </option>
                 {brands.map((brand) => (
                   <option key={brand} value={brand}>
@@ -155,17 +164,15 @@ const ComparePage = () => {
 
           {selectedBrand && (
             <div className="compareCont">
-              {/* <p>Selected Brand: {selectedBrand}</p> */}
-
               <div className="labandsel">
-                <label className="formLabel">Select Model:</label>
+                <label className="formLabel">Modèle:</label>
                 <select
                   className="formSelect"
                   onChange={(e) => handleModelChange(e.target.value)}
                   value={selectedModel || ""}
                 >
                   <option value="" disabled>
-                    Select a model
+                    Sélectionnez modèle
                   </option>
                   {models[selectedBrand].map((model) => (
                     <option key={model.name} value={model.name}>
@@ -178,14 +185,14 @@ const ComparePage = () => {
               {selectedModel && (
                 <div className="compareCont">
                   <div className="labandsel">
-                    <label className="formLabel">Select Year:</label>
+                    <label className="formLabel">Année:</label>
                     <select
                       className="formSelect"
                       onChange={(e) => handleYearChange(e.target.value)}
                       value={selectedYear || ""}
                     >
                       <option value="" disabled>
-                        Select a year
+                        Sélectionnez année
                       </option>
                       {models[selectedBrand]
                         .find((m) => m.name === selectedModel)
@@ -200,14 +207,14 @@ const ComparePage = () => {
                   {selectedYear && (
                     <div className="compareCont">
                       <div className="labandsel">
-                        <label className="formLabel">Select Version:</label>
+                        <label className="formLabel">Version:</label>
                         <select
                           className="formSelect"
                           onChange={(e) => handleVersionChange(e.target.value)}
                           value={selectedVersion || ""}
                         >
                           <option value="" disabled>
-                            Select a version
+                            Sélectionnez version
                           </option>
                           {models[selectedBrand]
                             .find((m) => m.name === selectedModel)
@@ -222,7 +229,7 @@ const ComparePage = () => {
                       {selectedVersion && (
                         <div className="compareCont">
                           <div className="labandsel">
-                            <label className="formLabel">Select Machine:</label>
+                            <label className="formLabel">Moteur:</label>
                             <select
                               className="formSelect"
                               onChange={(e) =>
@@ -231,7 +238,7 @@ const ComparePage = () => {
                               value={selectedMachine || ""}
                             >
                               <option value="" disabled>
-                                Select a machine
+                                Sélectionnez motorisation
                               </option>
                               {models[selectedBrand]
                                 .find((m) => m.name === selectedModel)
@@ -246,12 +253,12 @@ const ComparePage = () => {
                           {selectedMachine && (
                             <div className="formBox">
                               <p>
-                                Selected Car: {selectedBrand} {selectedModel} (
-                                {selectedYear})
+                                Véhicule selectionné: {selectedBrand}{" "}
+                                {selectedModel} ({selectedYear})
                               </p>
-                              <p>Selected Version: {selectedVersion}</p>
-                              <p>Selected Machine: {selectedMachine}</p>
-                              <div className="formBoxButton">
+                              <p>Version selectionnée : {selectedVersion}</p>
+                              <p>Version selectionnée: {selectedMachine}</p>
+                              <div className="formButnParent">
                                 <Link
                                   href={
                                     models[selectedBrand].find(
@@ -259,7 +266,9 @@ const ComparePage = () => {
                                     )?.href
                                   }
                                 >
-                                  Click Me
+                                  <button className="formBoxButton">
+                                    Commander
+                                  </button>
                                 </Link>
                               </div>
                             </div>
