@@ -51,7 +51,8 @@ const ComparePage = () => {
           "1618 ccm, 147 KW, 200 Chevaux",
           "1618 ccm, 162 KW, 220 Chevaux",
         ],
-        href: "/product/clio",
+        hrefEssence: "/renault-clio/essence",
+        hrefDiesel: "/renault-clio/diesel",
       },
       {
         name: "Captur",
@@ -74,7 +75,8 @@ const ComparePage = () => {
           "1461 ccm, 66 KW, 90 Chevaux",
           "1461 ccm, 81 KW, 110 Chevaux",
         ],
-        href: "/product/clio",
+        hrefEssence: "/renault-capture/essence",
+        hrefDiesel: "/renault-capture/diesel",
       },
       {
         name: "Clio IV Grandtour",
@@ -99,7 +101,8 @@ const ComparePage = () => {
           "1461 ccm, 66 KW, 90 Chevaux",
           "1461 ccm, 81 KW, 110 Chevaux",
         ],
-        href: "/product/clio",
+        hrefEssence: "/renault-capture/essence",
+        hrefDiesel: "/renault-capture/diesel",
       },
       {
         name: "Fluence",
@@ -112,7 +115,8 @@ const ComparePage = () => {
           "1461 ccm, 78 KW, 106 Chevaux",
           "1461 ccm, 81 KW, 110 Chevaux",
         ],
-        href: "/product/clio",
+        hrefEssence: "/renault-fluence/essence",
+        hrefDiesel: "/renault-fluence/diesel",
       },
       {
         name: "Scénic III",
@@ -124,7 +128,8 @@ const ComparePage = () => {
           "1461 ccm, 78 KW, 106 Chevaux",
           "1461 ccm, 81 KW, 110 Chevaux",
         ],
-        href: "/product/clio",
+        hrefEssence: "/renault-scenic/essence",
+        hrefDiesel: "/renault-scenic/diesel",
       },
       {
         name: "Grand Scénic III",
@@ -136,7 +141,8 @@ const ComparePage = () => {
           "1461 ccm, 78 KW, 106 Chevaux",
           "1461 ccm, 81 KW, 110 Chevaux",
         ],
-        href: "/product/clio",
+        hrefEssence: "/renault-scenic/essence",
+        hrefDiesel: "/renault-scenic/diesel",
       },
       {
         name: "Megane CC",
@@ -148,7 +154,8 @@ const ComparePage = () => {
           "1461 ccm, 78 KW, 106 Chevaux",
           "1461 ccm, 81 KW, 110 Chevaux",
         ],
-        href: "/product/clio",
+        hrefEssence: "/renault-megane/essence",
+        hrefDiesel: "/renault-megane/diesel",
       },
       {
         name: "Megane III Coupé",
@@ -163,7 +170,8 @@ const ComparePage = () => {
           "1461 ccm, 63 KW, 86 Chevaux",
           "1461 ccm, 66 KW, 90 Chevaux",
         ],
-        href: "/product/clio",
+        hrefEssence: "/renault-megane/essence",
+        hrefDiesel: "/renault-megane/diesel",
       },
       {
         name: "Megane III Grandtour",
@@ -178,7 +186,8 @@ const ComparePage = () => {
           "1461 ccm, 78 KW, 106 Chevaux",
           "1461 ccm, 81 KW, 110 Chevaux",
         ],
-        href: "/product/clio",
+        hrefEssence: "/renault-megane/essence",
+        hrefDiesel: "/renault-megane/diesel",
       },
       {
         name: "Megane III Hatchback Van",
@@ -188,7 +197,8 @@ const ComparePage = () => {
           "1461 ccm, 81 KW, 110 Chevaux",
           "1461 ccm, 66 KW, 90 Chevaux",
         ],
-        href: "/product/clio",
+        hrefEssence: "/renault-megane/essence",
+        hrefDiesel: "/renault-megane/diesel",
       },
     ],
     Ford: [
@@ -197,7 +207,8 @@ const ComparePage = () => {
         years: ["de 11/2008 à 08/2015"],
         versions: ["1.6 Diesel", "1.6 Essence"],
         machines: ["toute cylindrée"],
-        href: "/produits/essence/ford-focus",
+        hrefEssence: "/renault-ford/essence",
+        hrefDiesel: "/renault-ford/diesel",
       },
     ],
   };
@@ -233,7 +244,7 @@ const ComparePage = () => {
   };
 
   return (
-    <section className="md:py-[200px] compare">
+    <section className="compare">
       <div className="container mx-auto">
         <h2 className="text-[30px] text-center text-white mb-5">
           CHERCHEZ VOTRE VEHICULE
@@ -358,9 +369,25 @@ const ComparePage = () => {
                               <div className="formButnParent">
                                 <Link
                                   href={
-                                    models[selectedBrand].find(
-                                      (m) => m.name === selectedModel
-                                    )?.href
+                                    selectedVersion === "1.2 T" ||
+                                    selectedVersion === "0.9 TCe 75" ||
+                                    selectedVersion === "0.9 TCe 90" ||
+                                    selectedVersion === "0.9 TCe 90 LPG" ||
+                                    selectedVersion === "1.2 16V" ||
+                                    selectedVersion === "1.2 LPG" ||
+                                    selectedVersion === "1.2 LPG 16V" ||
+                                    selectedVersion === "1.2 TCe 120" ||
+                                    selectedVersion === "1.2 TCe" ||
+                                    selectedVersion === "1.2" ||
+                                    selectedVersion === "1.6 Essence" ||
+                                    selectedVersion === "1.6 RS Trophy" ||
+                                    selectedVersion === "1.6 RS"
+                                      ? models[selectedBrand].find(
+                                          (m) => m.name === selectedModel
+                                        )?.hrefEssence
+                                      : models[selectedBrand].find(
+                                          (m) => m.name === selectedModel
+                                        )?.hrefDiesel
                                   }
                                 >
                                   <button className="formBoxButton">
