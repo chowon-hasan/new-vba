@@ -370,7 +370,7 @@ export default function Produits() {
                   <div className="w-1/2 border border-[#EE9D35] rounded-md text-center py-2 px-2 shadow-2xl">
                     <Link
                       className="hover:underline hover:text-orangevba"
-                      href="/produits/diesel-2009-2015/ford-focus"
+                      href="/produits/diesel-a-partir-de/ford-focus"
                     >
                       <h2>
                         1.6 <br /> Diesel <br />à partir de 2008
