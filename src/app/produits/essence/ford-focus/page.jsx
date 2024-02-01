@@ -16,7 +16,7 @@ export default function Renault() {
           <div className="text-center">
             <p className="mb-4">
               Module de commande (calculateur) pour boite automatique Ford Focus
-              Essence 2010 Boite automatique DC4 (getrag 6DCT250)
+              Essence Boite automatique DC4 (getrag 6DCT250)
             </p>
             <p className="mb-4 text-center text-sm text-black italic">
               310320749R 310320891R 310320756R 310321109R 310321488R 310321517R
