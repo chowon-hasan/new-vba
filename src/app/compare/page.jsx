@@ -54,13 +54,6 @@ const ComparePage = () => {
         href: "/product/clio",
       },
       {
-        name: "Megane",
-        years: ["2011-2016"],
-        versions: ["1.6 Hatchback", "2.0 GT"],
-        machines: ["1598 ccm, 81 KW", "1998 ccm, 162 KW"],
-        href: "/product/clio",
-      },
-      {
         name: "Captur",
         years: ["de 06/2013 à 12/2023"],
         versions: [
