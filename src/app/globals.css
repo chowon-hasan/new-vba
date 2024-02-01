@@ -57,6 +57,7 @@ nextjs-portal {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  padding-top: 40px;
 }
 .carsCategory {
   background-image: linear-gradient(#0000004f, #00000049),
@@ -146,6 +147,37 @@ nextjs-portal {
 }
 .headingText {
   font-size: 35px;
+}
+.subTitleText {
+  font-size: 24px;
+}
+.forminputFields {
+  margin-top: 5px;
+  padding: 8px;
+  width: 100%;
+  border: 1px solid rgb(209 213 219);
+  border-radius: 10px;
+}
+.subHeadList:hover {
+  background-color: #b1d8ffef;
+  color: #fff;
+}
+.subHeadList1 {
+  color: #fff;
+}
+.helponlinebox {
+  width: 420px;
+
+  font-size: 16px;
+  border: 2px solid #ee9d35;
+  background-color: #fff;
+  padding: 15px;
+  margin: 40px 0;
+  border-radius: 10px;
+  color: #000;
+}
+.serchResult {
+  max-height: 350px;
 }
 @media screen and (min-width: 320px) and (max-width: 575px) {
   .headButton {

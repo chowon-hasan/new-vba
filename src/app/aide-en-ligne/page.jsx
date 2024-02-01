@@ -2,6 +2,7 @@
 import { useState } from "react";
 import Head from "next/head";
 import Link from "next/link";
+import { FaAngleRight } from "react-icons/fa";
 
 const MiseEnLigne = () => {
   // <Head>
@@ -313,7 +314,7 @@ const MiseEnLigne = () => {
 
           {/* Partie gauche - Texte initial */}
           <div className="searchCont md:flex justify-between">
-            <div className="md:w-[420px] md:h-[510px] text-[16px] border-2 border-orangevba bg-white p-4 mt-8 mb-8 rounded-lg shadow-xl text-black ">
+            <div className="helponlinebox ">
               <p className="mb-6 ">
                 Les boites automatiques (modèles DC4 et 6DCT250) couramment
                 installées dans les véhicules
@@ -343,7 +344,7 @@ const MiseEnLigne = () => {
                 </li>
               </ul>
 
-              <p className="mb-6">
+              <p className="">
                 Nous avons observé que les calculateurs de ces modèles peuvent
                 présenter des défaillances en <br /> dessous de{" "}
                 <a className="font-bold underline cursor-text">120 000 km</a> .
@@ -387,7 +388,7 @@ const MiseEnLigne = () => {
 
               {/* Résultats de la recherche */}
               {searchTerm.length >= 3 && (
-                <div className="bg-white mt-5 p-4 rounded-lg shadow-xl  text-lg overflow-y-auto max-h-[370px]">
+                <div className="bg-white mt-5 p-4 rounded-lg shadow-xl  text-lg overflow-y-auto serchResult">
                   {filteredCodes.length > 0 ? (
                     <div>
                       {/* Affichage des codes filtrés */}
@@ -401,24 +402,28 @@ const MiseEnLigne = () => {
                           <p className="mb-2 italic text-[14px]">
                             {code.subTitle}
                           </p>
-
-                          <a
-                            href="#"
-                            className=" font-semibold"
-                            onClick={() => toggleRecommendation(code.code)}
-                          >
-                            Clicker <span className="text-orangevba">Ici</span>{" "}
+                          <span>
+                            Clicker{" "}
+                            <a
+                              href="#"
+                              className=" font-semibold text-orangevba"
+                              onClick={() => toggleRecommendation(code.code)}
+                            >
+                              Ici
+                            </a>{" "}
                             pour obtenir de l'aide
-                          </a>
+                          </span>
+
                           {selectedCode === code.code && (
-                            <span className="text-orangevba font-semibold">
-                              : <br />
+                            <span className="text-[14px]">
+                              <br />
+
                               {code.aide}
                             </span>
                           )}
-                          <p className="mt-5 text-[16px]">
+                          {/* <p className="mt-5 text-[16px]">
                             Pour plus d'informations, merci de nous
-                          </p>
+                          </p> */}
                           <div className="flex items-center mt-5">
                             {/* <p>Contacter</p> */}
                             <Link

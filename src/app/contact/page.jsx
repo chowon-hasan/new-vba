@@ -98,7 +98,7 @@ const Contact = () => {
                     type="text"
                     id="name"
                     name="name"
-                    className="mt-1 p-2 w-full border border-gray-300 rounded-xl"
+                    className="forminputFields"
                     onChange={handleChange}
                     required
                   />
@@ -117,7 +117,7 @@ const Contact = () => {
                     type="email"
                     id="email"
                     name="email"
-                    className="mt-1 p-2 w-full border border-gray-300 rounded-xl"
+                    className="forminputFields"
                     onChange={handleChange}
                     required
                   />
@@ -136,7 +136,7 @@ const Contact = () => {
                     type="tel"
                     id="phone"
                     name="phone"
-                    className="mt-1 p-2 w-full border border-gray-300 rounded-xl"
+                    className="forminputFields"
                     onChange={handleChange}
                     required
                   />
@@ -153,7 +153,7 @@ const Contact = () => {
                   <select
                     id="category"
                     name="category"
-                    className="mt-1 p-2 w-full border border-gray-300 rounded-xl"
+                    className="forminputFields"
                     required
                     onChange={handleChange} // Ajout de la gestion du changement
                   >
@@ -184,7 +184,7 @@ const Contact = () => {
                   name="message"
                   rows="4"
                   required
-                  className="mt-1 p-2 w-full border border-gray-300 rounded-xl"
+                  className="forminputFields"
                   onChange={handleChange}
                 ></textarea>
               </div>

@@ -74,7 +74,7 @@ const AutreFormulaire = () => {
                 Pour effectuer le montage, démontage et la reprogrammation du
                 calculateur{" "}
                 <a href="/produit" className="font-bold">
-                  Renault (Clio, Captur, Mégane, Scénic) ou Ford Focus
+                  Renault (Clio IV, Captur, Mégane, Scénic) ou Ford Focus
                 </a>{" "}
                 :
               </p>
@@ -123,7 +123,7 @@ const AutreFormulaire = () => {
                     <select
                       id="vehicle"
                       name="vehicle"
-                      className="mt-1 p-2 w-full border border-gray-300 rounded-xl"
+                      className="forminputFields"
                       onChange={handleChange}
                       required
                     >
@@ -149,7 +149,7 @@ const AutreFormulaire = () => {
                     <select
                       id="year"
                       name="year"
-                      className="mt-1 p-2 w-full border border-gray-300 rounded-xl"
+                      className="forminputFields"
                       required
                       onChange={handleChange}
                     >
@@ -173,7 +173,7 @@ const AutreFormulaire = () => {
                       id="fuel"
                       name="fuel"
                       required
-                      className="mt-1 p-2 w-full border border-gray-300 rounded-xl"
+                      className="forminputFields"
                       onChange={handleChange}
                     >
                       <option value="Diesel">Diesel</option>
@@ -192,7 +192,7 @@ const AutreFormulaire = () => {
                     <select
                       id="service"
                       name="service"
-                      className="mt-1 p-2 w-full border border-gray-300 rounded-xl"
+                      className="forminputFields"
                       required
                       onChange={handleChange}
                     >
@@ -214,7 +214,7 @@ const AutreFormulaire = () => {
                     <select
                       id="region"
                       name="region"
-                      className="mt-1 p-2 w-full border border-gray-300 rounded-xl"
+                      className="forminputFields"
                       required
                       onChange={handleChange}
                     >
@@ -263,7 +263,7 @@ const AutreFormulaire = () => {
                     type="tel"
                     id="phone"
                     name="phone"
-                    className="mt-1 p-2 w-full border border-gray-300 rounded-xl"
+                    className="forminputFields"
                     onChange={handleChange}
                   />
                 </div>
@@ -279,7 +279,7 @@ const AutreFormulaire = () => {
                     type="name"
                     id="name"
                     name="name"
-                    className="mt-1 p-2 w-full border border-gray-300 rounded-xl"
+                    className="forminputFields"
                     onChange={handleChange}
                     required
                   />
@@ -297,7 +297,7 @@ const AutreFormulaire = () => {
                     type="email"
                     id="email"
                     name="email"
-                    className="mt-1 p-2 w-full border border-gray-300 rounded-xl"
+                    className="forminputFields"
                     onChange={handleChange}
                     required
                   />
@@ -317,7 +317,7 @@ const AutreFormulaire = () => {
                     name="message"
                     rows="4"
                     required
-                    className="mt-1 p-2 w-full border border-gray-300 rounded-xl"
+                    className="forminputFields"
                     onChange={handleChange}
                   ></textarea>
                 </div>

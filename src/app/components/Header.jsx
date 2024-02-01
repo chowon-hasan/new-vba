@@ -114,19 +114,19 @@ export default function Header() {
 
                   {prestationDropdown && (
                     <div className="absolute mt-2  bg-[#EE9D35]  rounded-md shadow-lg dark:bg-[#EE9D35] dark:border-gray-700 dark:text-white z-40">
-                      <div className="hover:bg-[#b1d8ffef] ">
+                      <div className="subHeadList">
                         {" "}
                         <Link
                           href="/prestations/programmation"
-                          className="hover:text-white block p-4 py-2"
+                          className="subHeadList1 block p-4 py-2"
                         >
                           Programmation
                         </Link>
                       </div>
-                      <div className="hover:bg-[#b1d8ffef]">
+                      <div className="subHeadList">
                         <Link
                           href="/prestations/installation"
-                          className="hover:text-white block p-4 py-2"
+                          className="subHeadList1 block p-4 py-2"
                         >
                           Installation
                         </Link>

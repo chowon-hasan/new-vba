@@ -10,16 +10,16 @@ export default function Produits() {
           <main className="flex  flex-col lg:p-8 md:p-4 p-2 z-20 relative">
             <div className="productTitle mx-auto">
               <div className="product bg-[#EE9D35] py-4 text-center rounded-md">
-                <h2 className="text-3xl font-bold text-white">
+                <h2 className="subTitleText font-bold text-white">
                   Trouvez Ici votre
                 </h2>
-                <h1 className="headingText font-bold  my-3 text-white">
+                <h1 className="headingText font-bold  my-1 text-white">
                   Calculateur de boite automatique
                 </h1>
-                <h2 className="text-3xl font-bold text-white">
+                <h2 className="subTitleText font-bold text-white">
                   Renault - Ford
                 </h2>
-                <h3 className="text-lg font-bold mt-4 text-white">
+                <h3 className="font-bold mt-4 text-white">
                   Vérifiez la disponibilité
                 </h3>
               </div>
@@ -367,16 +367,16 @@ export default function Produits() {
                     </Link>
                   </div>
 
-                  {/* <div className="w-1/2 border border-[#EE9D35] rounded-md text-center py-2 px-2 shadow-2xl">
+                  <div className="w-1/2 border border-[#EE9D35] rounded-md text-center py-2 px-2 shadow-2xl">
                     <Link
                       className="hover:underline hover:text-orangevba"
                       href="/produits/diesel-2009-2015/ford-focus"
                     >
                       <h2>
-                        1.2 <br /> Diesel de <br /> 2009 à 2015
+                        1.6 <br /> Diesel <br />à partir de 2008
                       </h2>
                     </Link>
-                  </div> */}
+                  </div>
                 </div>
 
                 {/* <div className="flex justify-center gap-5 mt-5">
