@@ -82,6 +82,11 @@ nextjs-portal {
   background-repeat: no-repeat;
   min-height: 100vh;
 }
+.orangeButton {
+  background-color: #ee9d35;
+  color: #fff;
+  text-transform: capitalize;
+}
 .headButtonRes {
   display: none;
 }
@@ -178,6 +183,25 @@ nextjs-portal {
 }
 .serchResult {
   max-height: 350px;
+}
+.buttonsOrange {
+  background-color: #ee9d35;
+  color: #fff;
+  text-transform: capitalize;
+  padding: 12px 37px;
+  border-radius: 5px;
+}
+.buttonsBlue {
+  background-color: #287ffe;
+  color: #fff;
+  text-transform: capitalize;
+  padding: 12px 40px;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+.buttonsOrange:hover {
+  background-color: #b1d8ff;
+  color: #fff;
 }
 @media screen and (min-width: 320px) and (max-width: 575px) {
   .headButton {

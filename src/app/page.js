@@ -180,14 +180,10 @@ const Home = () => {
 
                 <div className="buttons">
                   <Link href="/produits">
-                    <button className="buttons bg-[#EE9D35] text-white capitalize py-3 px-[40px] rounded-md hover:bg-[#B1D8FF] hover:text-white">
-                      DISPONIBILITE
-                    </button>
+                    <button className="buttonsOrange">DISPONIBILITE</button>
                   </Link>
                   <Link href="/aide-en-ligne">
-                    <button className="buttons bg-[#287FFE] text-white capitalize ms-3 py-3 px-[38px] rounded-md hover:bg-[#B1D8FF] hover:text-white">
-                      AIDE EN LIGNE
-                    </button>
+                    <button className="buttonsBlue">AIDE EN LIGNE</button>
                   </Link>
                 </div>
 
