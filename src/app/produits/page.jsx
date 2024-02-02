@@ -7,7 +7,7 @@ export default function Produits() {
     <section className="produits1" style={{ padding: "100px 0" }}>
       <div className="container mx-auto">
         <div className="">
-          <main className="flex  flex-col lg:p-8 md:p-4 p-2 z-20 relative">
+          <main className="flex  flex-col z-20 relative">
             <div className="productTitle mx-auto">
               <div className="product bg-[#EE9D35] py-4 text-center rounded-md">
                 <h2 className="subTitleText font-bold text-white">

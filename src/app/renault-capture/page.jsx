@@ -4,7 +4,7 @@ import React from "react";
 
 const RenaultCapture = () => {
   return (
-    <section className="md:py-[200px] carsCategory">
+    <section className="carsCategory">
       <div className="container mx-auto">
         <div className="md:flex justify-center items-start gap-5">
           <div className="md:w-1/2">

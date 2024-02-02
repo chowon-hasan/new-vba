@@ -12,9 +12,9 @@ const Footer = () => {
   return (
     <section>
       <div className="container mx-auto">
-        <footer className="myFooter bg-[#ffffff] border-t-[3px] border-[#c9c9c9] text-black py-4 ">
-          <div className="flex flex-wrap justify-center gap-4">
-            <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4  mb-4 textCenter">
+        <footer className="myFooter bg-[#ffffff] border-t-[3px] border-b-[3px] border-[#c9c9c9] text-black py-4 ">
+          <div className="flex flex-wrap justify-between gap-4">
+            <div className="">
               <a href="https://maps.app.goo.gl/p7MQH6a2DYB64of59">
                 <span className="hover:text-[#EE9D35] text-[15px]">
                   Calculateur Renault Paris (75)
@@ -50,7 +50,7 @@ const Footer = () => {
               </a>
             </div>
             {/*  */}
-            <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 text-center">
+            <div className="text-center">
               <div>
                 <Link
                   className="hover:text-[#EE9D35] font-bold text-[16px]"
@@ -159,23 +159,19 @@ const Footer = () => {
                   </Link>
                 </p>
               </p>
-              <h1 className="pt-6 text-[16px]">
+              <h1 className="pt-6 text-[14px]">
                 <a href="/mentions-legales" className="hover:text-[#EE9D35]">
-                  Mentions Légales
+                  Mentions Légales |
                 </a>{" "}
-                <br />
                 Développé par{" "}
-                <a
-                  className="hover:text-[#EE9D35]"
-                  href="https://clickandtrust.fr/"
-                >
+                <a className="text-[#EE9D35]" href="https://clickandtrust.fr/">
                   Click & Trust
                 </a>
               </h1>
               <p></p>
             </div>
             {/*  */}
-            <div className="w-full sm:w-1/2  md:w-1/3 lg:w-1/4  mb-4 ">
+            <div className="">
               <div className="lg:ms-[30px] textCenter">
                 <Link href="https://maps.app.goo.gl/p7MQH6a2DYB64of59">
                   <span className="hover:text-[#EE9D35] text-[15px]">

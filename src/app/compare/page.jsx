@@ -357,10 +357,10 @@ const ComparePage = () => {
                       {selectedVersion && (
                         <div className="formBox">
                           <p>
-                            Véhicule selectionné: {selectedBrand}{" "}
+                            Véhicule sélectionné: {selectedBrand}{" "}
                             {selectedModel} ({selectedYear})
                           </p>
-                          <p>Version selectionnée : {selectedVersion}</p>
+                          <p>Version sélectionnée : {selectedVersion}</p>
                           <div className="formButnParent">
                             <Link
                               href={

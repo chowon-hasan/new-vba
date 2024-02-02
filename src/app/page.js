@@ -19,7 +19,10 @@ const Home = () => {
   return (
     <section style={{ padding: "40px 0" }} className="bannerSection">
       <div className="container mx-auto ">
-        <div className="min-h-screen flex items-center justify-center">
+        <div
+          style={{ minHeight: "90vh" }}
+          className="flex items-center justify-center"
+        >
           <Head>
             <title>
               Fournisseur de Calculateur de boîte automatiques Renault et

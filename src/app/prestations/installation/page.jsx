@@ -70,23 +70,19 @@ const AutreFormulaire = () => {
             </Head> */}
 
             <div className="installTitle text-2xl text-center my-10 lg:mx-16 bg-[#EE9D35] text-white z-20 rounded-2xl p-3">
-              <p>
-                Montage, démontage et reprogrammation du calculateur{" "}
-                <a href="/produit" className="font-bold">
-                  Renault (Clio IV, Captur, Mégane, Scénic) ou Ford Focus
-                </a>{" "}
-                :
-              </p>
-              <p className="mt-4">
-                Contactez-nous via le formulaire ci-dessous ou par téléphone au{" "}
-                <br />{" "}
+              <p>Montage, démontage et reprogrammation du calculateur </p>
+              <a href="/produit" className="font-bold">
+                Renault (Clio IV, Captur, Mégane, Scénic) ou Ford Focus
+              </a>
+              <span className="block mt-2 contactTitle">
+                Contactez-nous via le formulaire ci-dessous ou par tél. au{" "}
                 <a
                   className="hover:text-bleuvba  font-bold"
                   href="tel:0756944719"
                 >
                   07 56 94 47 19
                 </a>
-              </p>
+              </span>
             </div>
             <div className="installForm">
               <form

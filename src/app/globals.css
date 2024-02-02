@@ -64,6 +64,7 @@ nextjs-portal {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  padding: 156px 0;
 }
 .compare {
   background-image: linear-gradient(#0000004f, #00000049),
@@ -86,6 +87,9 @@ nextjs-portal {
   background-color: #ee9d35;
   color: #fff;
   text-transform: capitalize;
+}
+.bannerSection {
+  min-height: 70vh;
 }
 .headButtonRes {
   display: none;
@@ -184,11 +188,14 @@ nextjs-portal {
 .serchResult {
   max-height: 350px;
 }
+.buttons {
+  width: 410px;
+}
 .buttonsOrange {
   background-color: #ee9d35;
   color: #fff;
   text-transform: capitalize;
-  padding: 12px 37px;
+  padding: 12px 38px;
   border-radius: 5px;
 }
 .buttonsBlue {
@@ -202,6 +209,9 @@ nextjs-portal {
 .buttonsOrange:hover {
   background-color: #b1d8ff;
   color: #fff;
+}
+.contactTitle {
+  font-size: 22px;
 }
 @media screen and (min-width: 320px) and (max-width: 575px) {
   .headButton {
