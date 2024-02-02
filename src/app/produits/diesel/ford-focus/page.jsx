@@ -29,7 +29,7 @@ export default function Renault() {
             <div className="flex justify-center space-x-4 pt-4">
               <a
                 href="https://buy.stripe.com/test_7sIaI5dxAajlcTubII"
-                className="cursor-pointer bg-orangevba hover:brightness-110 text-white font-bold py-2 px-4 rounded-full shadow-lg focus:outline-none"
+                className="cursor-pointer bg-orangevba hover:brightness-110 text-white py-2 px-4 rounded-full shadow-lg focus:outline-none"
               >
                 Commander
               </a>
