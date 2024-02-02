@@ -2,7 +2,7 @@
 export default function Renault() {
   return (
     <div className="relative produits">
-      <div className="min-h-screen w-full z-20  items-center justify-center flex  flex-col lg:p-24 z-20 relative">
+      <div className="min-h-screen w-full  items-center justify-center flex  flex-col lg:p-24 z-20 relative">
         <div className="group rounded-xl shadow-2xl p-8 transition-color  border-2 bg-white/90 border-orangevba  md:w-3/5 lg:w-3/5 xl:w-5/12 text-center">
           <div className="text-right text-2xl ">890,00€</div>
           <img
