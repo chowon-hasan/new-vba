@@ -71,16 +71,15 @@ const AutreFormulaire = () => {
 
             <div className="installTitle text-2xl text-center my-10 lg:mx-16 bg-[#EE9D35] text-white z-20 rounded-2xl p-3">
               <p>
-                Pour effectuer le montage, démontage et la reprogrammation du
-                calculateur{" "}
+                Montage, démontage et reprogrammation du calculateur{" "}
                 <a href="/produit" className="font-bold">
                   Renault (Clio IV, Captur, Mégane, Scénic) ou Ford Focus
                 </a>{" "}
                 :
               </p>
               <p className="mt-4">
-                Contactez-nous grâce au formulaire ci-dessous ou bien par
-                téléphone au <br />{" "}
+                Contactez-nous via le formulaire ci-dessous ou par téléphone au{" "}
+                <br />{" "}
                 <a
                   className="hover:text-bleuvba  font-bold"
                   href="tel:0756944719"
