@@ -267,7 +267,7 @@ const ComparePage = () => {
     <section className="compare">
       <div className="container mx-auto">
         <h2 className="text-[30px] text-center text-white mb-5">
-          CHERCHEZ VOTRE VEHICULE
+          SELECTIONNEZ VOTRE VEHICULE
         </h2>
         <div className="compareParent">
           <div className="compareCont">

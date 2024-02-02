@@ -362,7 +362,7 @@ const MiseEnLigne = () => {
             {/* Partie droite - Barre de recherche et résultats */}
             <div className="md:w-[420px] mt-8">
               {/* Barre de recherche */}
-              <div className="md:w-[420px]">
+              <div className="md:w-[330px]">
                 <p className="bg-[#EE9D35] text-white items-center text-[16px] border border-1 rounded border-[#EE9D35]  mx-auto p-2 mb-3">
                   Rechercher code erreur ou description:{" "}
                 </p>
@@ -372,13 +372,13 @@ const MiseEnLigne = () => {
                     placeholder="Code erreur ou description"
                     value={searchTerm}
                     onChange={handleChange}
-                    className="SearchInput md:w-2/3 p-2 border border-gray-300 mb-4 rounded text-[16px]"
+                    className="SearchInput w-full p-2 border border-gray-300 mb-4 rounded text-[16px]"
                   />
 
                   <div className="">
                     <button
                       onClick={handleSearch}
-                      className="bg-[#EE9D35] text-[16px] text-white py-3 px-8 rounded-md hover:bg-[#B1D8FF] hover:text-black"
+                      className="bg-[#EE9D35] text-[16px] text-white py-[10px] px-[40px] rounded-md hover:bg-[#B1D8FF] hover:text-black"
                     >
                       Rechercher
                     </button>
@@ -395,15 +395,17 @@ const MiseEnLigne = () => {
                       {filteredCodes.map((code) => (
                         <div
                           key={code.code}
-                          className="mb-6 p-4 border-4 border-orangevba"
+                          className="mb-4 p-4 border-2 border-orangevba"
                         >
-                          <p className="font-bold text-md mb-2">{code.code}</p>
-                          <p className="mb-2 text-[16px]">{code.description}</p>
-                          <p className="mb-2 italic text-[14px]">
+                          <p className="font-bold text-md text-[16px]">
+                            {code.code}
+                          </p>
+                          <p className="mb-2 text-[15px]">{code.description}</p>
+                          <p className="mb-2 italic text-[14px] text-gray-500">
                             {code.subTitle}
                           </p>
-                          <span>
-                            Clicker{" "}
+                          <span className="text-[16px]">
+                            Cliquer{" "}
                             <a
                               href="#"
                               className=" font-semibold text-orangevba"

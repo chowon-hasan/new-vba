@@ -2,7 +2,6 @@
 import Link from "next/link";
 import { useState, useRef, useEffect } from "react";
 import { useRouter } from "next/navigation";
-import Image from "next/image";
 
 export default function Header() {
   const [navbar, setNavbar] = useState(false);
@@ -113,7 +112,7 @@ export default function Header() {
                   </button>
 
                   {prestationDropdown && (
-                    <div className="absolute mt-2  bg-[#EE9D35]  rounded-md shadow-lg dark:bg-[#EE9D35] dark:border-gray-700 dark:text-white z-40">
+                    <div className="navSubParent absolute mt-2  bg-[#EE9D35] rounded-md shadow-lg dark:bg-[#EE9D35] dark:border-gray-700 dark:text-white z-40">
                       <div className="subHeadList">
                         {" "}
                         <Link
@@ -155,7 +154,7 @@ export default function Header() {
                     Aide En Ligne
                   </button>
                 </Link>
-                <Link href="/compare">
+                <Link href="/selectionnez-votre-vehicule">
                   <button className="bg-[#418FFF] ms-3 text-white py-3 px-5 rounded-md hover:bg-[#B1D8FF] hover:text-black">
                     Véhicule
                   </button>
@@ -169,7 +168,7 @@ export default function Header() {
                   Aide En Ligne
                 </button>
               </Link>
-              <Link href="/compare">
+              <Link href="/selectionnez-votre-vehicule">
                 <button className="bg-[#EE9D35] ms-3 text-white py-3 px-8 rounded-md hover:bg-[#B1D8FF] hover:text-black">
                   Véhicule
                 </button>

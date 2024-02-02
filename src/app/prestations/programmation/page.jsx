@@ -15,7 +15,7 @@ export default function Clonage() {
         {/* Texte au-dessus de l'image */}
         <main className="flex min-h-screen items-center lg:p-8 sm:p-5 md-8 justify-center relative text-black">
           <div className="bg-white/95 border-2 border-orangevba rounded-2xl p-8 w-[800px] text-center">
-            <p className="progTitle headingText pb-4 font-bold">
+            <p className="progTitle pb-4 font-bold">
               Services de Programmation
             </p>
             <div className="mb-8 text-lg">

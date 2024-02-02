@@ -10,16 +10,8 @@ body {
 
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-}
-
 nextjs-portal {
   display: none;
 }
@@ -42,7 +34,7 @@ nextjs-portal {
 }
 
 .link-bg:hover {
-  background-color: orangevba;
+  background-color: #ee9d35;
 }
 .produits1 {
   background-image: linear-gradient(#0000004f, #00000049),
@@ -157,6 +149,10 @@ nextjs-portal {
 .headingText {
   font-size: 35px;
 }
+.progTitle,
+.contactFormTitle {
+  font-size: 32px;
+}
 .subTitleText {
   font-size: 24px;
 }
@@ -170,6 +166,7 @@ nextjs-portal {
 .subHeadList:hover {
   background-color: #b1d8ffef;
   color: #fff;
+  border-radius: 7px;
 }
 .subHeadList1 {
   color: #fff;

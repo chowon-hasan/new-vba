@@ -104,7 +104,7 @@ const Footer = () => {
                   <Link
                     href="https://www.linkedin.com/company/vba-calculateur/"
                     target="_blank"
-                    className="hover:bg-bleuvba hover:rounded"
+                    className="hover:bg-bleuvba hover:rounded p-1"
                     rel="noopener noreferrer"
                   >
                     <FaLinkedinIn size={24} />
@@ -112,7 +112,7 @@ const Footer = () => {
                   <Link
                     href="https://www.facebook.com/profile.php?id=61554187663999"
                     target="_blank"
-                    className="hover:bg-bleuvba hover:rounded"
+                    className="hover:bg-bleuvba hover:rounded p-1"
                     rel="noopener noreferrer"
                   >
                     <FaFacebookF size={24} />
@@ -120,7 +120,7 @@ const Footer = () => {
                   <Link
                     href="https://www.instagram.com/vbacalculateur/"
                     target="_blank"
-                    className="hover:bg-bleuvba hover:rounded"
+                    className="hover:bg-bleuvba hover:rounded p-1"
                     rel="noopener noreferrer"
                   >
                     <FaInstagram size={24} />
@@ -128,7 +128,7 @@ const Footer = () => {
                   <Link
                     href="https://www.pinterest.fr/vbacalculateur/"
                     target="_blank"
-                    className="hover:bg-bleuvba hover:rounded"
+                    className="hover:bg-bleuvba hover:rounded p-1"
                     rel="noopener noreferrer"
                   >
                     <FaPinterest size={24} />
@@ -136,7 +136,7 @@ const Footer = () => {
                   <Link
                     href="https://www.tiktok.com/@vbacalculateur"
                     target="_blank"
-                    className="hover:bg-bleuvba hover:rounded"
+                    className="hover:bg-bleuvba hover:rounded p-1"
                     rel="noopener noreferrer"
                   >
                     <FaTiktok size={24} />
@@ -144,7 +144,7 @@ const Footer = () => {
                   <Link
                     href="https://twitter.com/vbacalculateur"
                     target="_blank"
-                    className="hover:bg-bleuvba hover:rounded"
+                    className="hover:bg-bleuvba hover:rounded p-1"
                     rel="noopener noreferrer"
                   >
                     <FaTwitter size={24} />
@@ -152,7 +152,7 @@ const Footer = () => {
                   <Link
                     href="https://www.youtube.com/channel/UCdW6FARqs2Sv6rzeBidaQsw"
                     target="_blank"
-                    className="hover:bg-bleuvba hover:rounded"
+                    className="hover:bg-bleuvba hover:rounded p-1"
                     rel="noopener noreferrer"
                   >
                     <FaYoutube size={24} />
