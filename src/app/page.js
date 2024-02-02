@@ -20,7 +20,7 @@ const Home = () => {
     <section style={{ padding: "40px 0" }} className="bannerSection">
       <div className="container mx-auto ">
         <div
-          style={{ minHeight: "90vh" }}
+          style={{ minHeight: "95vh" }}
           className="flex items-center justify-center"
         >
           <Head>
