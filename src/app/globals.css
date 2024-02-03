@@ -157,6 +157,8 @@ nextjs-portal {
   font-size: 24px;
 }
 .forminputFields {
+  /* -webkit-appearance: none; */
+  box-sizing: border-box;
   margin-top: 5px;
   padding: 8px;
   width: 100%;

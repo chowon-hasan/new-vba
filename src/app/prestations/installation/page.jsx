@@ -144,7 +144,7 @@ const AutreFormulaire = () => {
                     <select
                       id="year"
                       name="year"
-                      className="forminputFieldsYear"
+                      className="forminputFields"
                       required
                       onChange={handleChange}
                     >

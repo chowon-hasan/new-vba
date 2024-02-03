@@ -44,7 +44,7 @@ export default function Mentions() {
             information concernant l’ensemble des activités de la société.
           </p>
           <p>
-            AxElecAuto s’efforce de fournir sur le site
+            Nous nous efforçons s’efforce de fournir sur le site
             www.laboiteautomatique.com des informations aussi précises que
             possible. Toutefois, il ne pourra être tenue responsable{" "}
           </p>
@@ -65,16 +65,16 @@ export default function Mentions() {
           <p>
             Ce site est normalement accessible à tout moment aux utilisateurs.
             Une interruption pour raison de maintenance technique peut être
-            toutefois décidée par AxElecAuto, qui s’efforcera alors de
-            communiquer préalablement aux utilisateurs les dates et heures de
+            toutefois décidée par, qui s’efforcera alors de communiquer
+            préalablement aux utilisateurs les dates et heures de
             l’intervention.
           </p>
           <p>
             Le site www.laboiteautomatique.com est mis à jour régulièrement par
-            Axelecauto. De la même façon, les mentions légales peuvent être
-            modifiées à tout moment : elles s’imposent néanmoins à l’utilisateur
-            qui est invité à s’y référer le plus souvent possible afin d’en
-            prendre connaissance.
+            nous. De la même façon, les mentions légales peuvent être modifiées
+            à tout moment : elles s’imposent néanmoins à l’utilisateur qui est
+            invité à s’y référer le plus souvent possible afin d’en prendre
+            connaissance.
           </p>
         </div>
         <div className="mb-8">
@@ -95,10 +95,10 @@ export default function Mentions() {
             5. PROPRIÉTÉ INTELLECTUELLE ET CONTREFAÇONS.
           </h2>
           <p>
-            AxElecAuto est propriétaire des droits de propriété intellectuelle
-            ou détient les droits d’usage sur tous les éléments accessibles sur
-            le site, notamment les textes, images, graphismes, logo, icônes,
-            sons, logiciels.{" "}
+            Est propriétaire des droits de propriété intellectuelle ou détient
+            les droits d’usage sur tous les éléments accessibles sur le site,
+            notamment les textes, images, graphismes, logo, icônes, sons,
+            logiciels.{" "}
           </p>
           <p>
             Toute reproduction, représentation, modification, publication,
@@ -118,24 +118,24 @@ export default function Mentions() {
             6. LIMITATIONS DE RESPONSABILITÉ.
           </h2>
           <p>
-            AxElecAuto ne pourra être tenue responsable des dommages directs et
-            indirects causés au matériel de l’utilisateur, lors de l’accès au
+            Nous ne pourrons pourra être tenue responsable des dommages directs
+            et indirects causés au matériel de l’utilisateur, lors de l’accès au
             site www.laboiteautomatique.com, et résultant soit de l’utilisation
             d’un matériel ne répondant pas aux spécifications indiquées au point
             4, soit de l’apparition d’un bug ou d’une incompatibilité.{" "}
           </p>
           <p>
-            AxElecAuto ne pourra également être tenue responsable des dommages
-            indirects (tels par exemple qu’une perte de marché ou perte d’une
-            chance) consécutifs à l’utilisation du site
+            Nous ne pourrons pourra également être tenue responsable des
+            dommages indirects (tels par exemple qu’une perte de marché ou perte
+            d’une chance) consécutifs à l’utilisation du site
             www.laboiteautomatique.com.{" "}
           </p>
           <p>
             Des espaces interactifs (possibilité de poser des questions dans
-            l’espace contact) sont à la disposition des utilisateurs. AxElecAuto
-            se réserve le droit de supprimer, sans mise en demeure préalable,
-            tout contenu déposé dans cet espace qui contreviendrait à la
-            législation applicable en France, en particulier aux dispositions
+            l’espace contact) sont à la disposition des utilisateurs. Nous nous
+            réservons se réserve le droit de supprimer, sans mise en demeure
+            préalable, tout contenu déposé dans cet espace qui contreviendrait à
+            la législation applicable en France, en particulier aux dispositions
             relatives à la protection des données. Le cas échéant, Click and
             Trust se réserve également la possibilité de mettre en cause la
             responsabilité civile et/ou pénale de l’utilisateur, notamment en
@@ -162,13 +162,14 @@ export default function Mentions() {
             Internet (IP) de l'utilisateur.{" "}
           </p>
           <p>
-            En tout état de cause AxElecAuto ne collecte des informations
-            personnelles relatives à l'utilisateur que pour le besoin de
-            certains services proposés par le site www.laboiteautomatique.com.
-            L'utilisateur fournit ces informations en toute connaissance de
-            cause, notamment lorsqu'il procède par lui-même à leur saisie. Il
-            est alors précisé à l'utilisateur du site www.laboiteautomatique.com
-            l’obligation ou non de fournir ces informations.{" "}
+            En tout état de cause nous ne collectons ne collecte des
+            informations personnelles relatives à l'utilisateur que pour le
+            besoin de certains services proposés par le site
+            www.laboiteautomatique.com. L'utilisateur fournit ces informations
+            en toute connaissance de cause, notamment lorsqu'il procède par
+            lui-même à leur saisie. Il est alors précisé à l'utilisateur du site
+            www.laboiteautomatique.com l’obligation ou non de fournir ces
+            informations.{" "}
           </p>
           <p>
             Conformément aux dispositions des articles 38 et suivants de la loi
@@ -184,7 +185,7 @@ export default function Mentions() {
             Aucune information personnelle de l'utilisateur du site
             www.laboiteautomatique.com n'est publiée à l'insu de l'utilisateur,
             échangée, transférée, cédée ou vendue sur un support quelconque à
-            des tiers. Seule l'hypothèse du rachat de AxElecAuto et de ses
+            des tiers. Seule l'hypothèse du rachat de de notre entité et de ses
             droits permettrait la transmission des dites informations à
             l'éventuel acquéreur qui serait à son tour tenu de la même
             obligation de conservation et de modification des données vis à vis
@@ -207,9 +208,9 @@ export default function Mentions() {
           <p>
             Le site www.laboiteautomatique.com contient un certain nombre de
             liens hypertextes vers d’autres sites, mis en place avec
-            l’autorisation de AxElecAuto. Cependant, AxElecAuto n’a pas la
-            possibilité de vérifier le contenu des sites ainsi visités, et
-            n’assumera en conséquence aucune responsabilité de ce fait.{" "}
+            l’autorisation de nous n’avons . Cependant, n’a pas la possibilité
+            de vérifier le contenu des sites ainsi visités, et n’assumera en
+            conséquence aucune responsabilité de ce fait.{" "}
           </p>
           <p>
             La navigation sur le site www.laboiteautomatique.com est susceptible
