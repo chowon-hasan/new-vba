@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <section>
       <div className="container mx-auto">
-        <footer className="myFooter bg-[#ffffff] border-t-[3px] border-b-[3px] border-[#c9c9c9] text-black py-4 ">
+        <footer className="myFooter bg-[#ffffff] border-t-[4px] border-b-[4px] border-[#c9c9c9] text-black py-4 ">
           <div className="flex flex-wrap justify-between gap-4">
             <div className="">
               <a href="https://maps.app.goo.gl/p7MQH6a2DYB64of59">

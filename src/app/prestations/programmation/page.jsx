@@ -31,9 +31,9 @@ export default function Clonage() {
                 </p>
               </ul>
             </div>
-            <p className="mb-4 text-md">Références compatibles :</p>
+            <p className="mb-4">Références compatibles :</p>
             <div className="flex justify-center">
-              <div className="w-full italic text-md text-black  pr-4">
+              <div className="w-full italic text-gray-600">
                 <p>
                   3A2C3074300 - 0310320749R - 310320891R - 310320756R -
                   310321109R
@@ -54,9 +54,13 @@ export default function Clonage() {
                 <p>
                   310321149R - 310321306R - 310320553R - 310321359R - 310321488R
                 </p>
+                <p className="text-[15px]">
+                  A2C30743000 01 K00 - A2C53374830 03 K01 - A2C30743100 -
+                  A2C73768907
+                </p>
               </div>
             </div>
-            <p className="mt-8 mb-8 text-lg text-justify">
+            <p className="mt-8 mb-8 text-justify">
               Avec notre expertise, nous sommes en mesure d’effectuer la
               reprogrammation ou le clonage de votre calculateur. Intervention -
               Livraison sur toute la France. <br />

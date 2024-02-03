@@ -395,12 +395,17 @@ const MiseEnLigne = () => {
                       {filteredCodes.map((code) => (
                         <div
                           key={code.code}
-                          className="mb-4 p-4 border-2 border-orangevba"
+                          className="mb-4 p-4 border border-orangevba"
                         >
                           <p className="font-bold text-md text-[16px]">
                             {code.code}
                           </p>
-                          <p className="mb-2 text-[15px]">{code.description}</p>
+                          <p
+                            className="mb-2 mt-1 text-[15px] "
+                            style={{ lineHeight: "22px" }}
+                          >
+                            {code.description}
+                          </p>
                           <p className="mb-2 italic text-[14px] text-gray-500">
                             {code.subTitle}
                           </p>
@@ -419,8 +424,11 @@ const MiseEnLigne = () => {
                           {selectedCode === code.code && (
                             <span className="text-[14px]">
                               <br />
-
-                              {code.aide}
+                              <p
+                                style={{ lineHeight: "22px", marginTop: "5px" }}
+                              >
+                                {code.aide}
+                              </p>
                             </span>
                           )}
                           {/* <p className="mt-5 text-[16px]">

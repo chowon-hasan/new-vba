@@ -164,8 +164,8 @@ const Contact = () => {
                     <option value="Renault Scenic">Renault Scenic</option>
                     <option value="Renault Fluence">Renault Fluence</option>
                     <option value="Ford Focus">Ford Focus</option>
-                    <option value="Mercedes Class A">Mercedes Class A</option>
-                    <option value="Mercedes Class B">Mercedes Class B</option>
+                    {/* <option value="Mercedes Class A">Mercedes Class A</option>
+                    <option value="Mercedes Class B">Mercedes Class B</option> */}
                   </select>
                 </div>
               </div>

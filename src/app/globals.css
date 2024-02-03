@@ -118,7 +118,7 @@ nextjs-portal {
 .formBox {
   background-color: #fff;
   margin-top: 10px;
-  padding: 10px;
+  padding: 12px;
   border-radius: 5px;
 }
 :focus-visible {
@@ -132,7 +132,7 @@ nextjs-portal {
   border-radius: 5px;
 }
 .formButnParent {
-  margin: 10px 0;
+  margin: 10px 0 0 0;
 }
 .labandsel {
   display: flex;
@@ -163,6 +163,15 @@ nextjs-portal {
   border: 1px solid rgb(209 213 219);
   border-radius: 10px;
 }
+.forminputFieldsYear {
+  margin-top: 5px;
+  padding: 8px;
+  width: 100%;
+  border: 1px solid rgb(209 213 219);
+  border-radius: 10px;
+  /* min-height: 200px;
+  overflow-y: auto; */
+}
 .subHeadList:hover {
   background-color: #b1d8ffef;
   color: #fff;
@@ -192,14 +201,16 @@ nextjs-portal {
   background-color: #ee9d35;
   color: #fff;
   text-transform: capitalize;
-  padding: 12px 38px;
+  width: 100%;
+  padding: 12px 0;
   border-radius: 5px;
 }
 .buttonsBlue {
   background-color: #287ffe;
   color: #fff;
   text-transform: capitalize;
-  padding: 12px 40px;
+  width: 100%;
+  padding: 12px 0;
   border-radius: 5px;
   margin-left: 15px;
 }

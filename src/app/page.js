@@ -17,12 +17,9 @@ const Home = () => {
   };
 
   return (
-    <section style={{ padding: "40px 0" }} className="bannerSection">
+    <section style={{ padding: "180px 0 120px 0" }} className="bannerSection">
       <div className="container mx-auto ">
-        <div
-          style={{ minHeight: "95vh" }}
-          className="flex items-center justify-center"
-        >
+        <div className="flex items-center justify-center">
           <Head>
             <title>
               Fournisseur de Calculateur de boîte automatiques Renault et
@@ -38,7 +35,7 @@ const Home = () => {
                   Vente - Reprogrammation
                 </h1>
                 <h2 className="text-3xl font-bold my-3">
-                  Boites automatiques DC4
+                  Boites automatiques DC4 - 6DCT250
                 </h2>
                 <h2 className="text-3xl font-bold my-3">
                   Renault - Ford pour vehicules :
@@ -181,13 +178,17 @@ const Home = () => {
                   </div>
                 </div>
 
-                <div className="buttons">
-                  <Link href="/produits">
-                    <button className="buttonsOrange">DISPONIBILITE</button>
-                  </Link>
-                  <Link href="/aide-en-ligne">
-                    <button className="buttonsBlue">AIDE EN LIGNE</button>
-                  </Link>
+                <div className="flex">
+                  <div style={{ width: "180px" }} className="">
+                    <Link href="/produits">
+                      <button className="buttonsOrange">DISPONIBILITE</button>
+                    </Link>
+                  </div>
+                  <div style={{ width: "180px" }} className="">
+                    <Link href="/aide-en-ligne">
+                      <button className="buttonsBlue">AIDE EN LIGNE</button>
+                    </Link>
+                  </div>
                 </div>
 
                 <div className="">

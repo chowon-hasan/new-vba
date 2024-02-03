@@ -49,7 +49,7 @@ export default function Header() {
   }, [router.pathname]);
   return (
     <section className="bg-white/90 fixed w-full z-50">
-      <div className="container mx-auto border-b-[3px] border-[#c9c9c9]">
+      <div className="container mx-auto border-b-[4px] border-[#c9c9c9]">
         <nav className="">
           <div className="flex flex-wrap items-center justify-between mx-auto py-3">
             <Link href="/" className="">
