@@ -157,7 +157,6 @@ nextjs-portal {
   font-size: 24px;
 }
 .forminputFields {
-  /* -webkit-appearance: none; */
   box-sizing: border-box;
   margin-top: 5px;
   padding: 8px;
@@ -165,14 +164,11 @@ nextjs-portal {
   border: 1px solid rgb(209 213 219);
   border-radius: 10px;
 }
-.forminputFieldsYear {
-  margin-top: 5px;
-  padding: 8px;
-  width: 100%;
-  border: 1px solid rgb(209 213 219);
-  border-radius: 10px;
-  /* min-height: 200px;
-  overflow-y: auto; */
+@media not all and (min-resolution: 0.001dpcm) {
+  .forminputFields {
+    -webkit-appearance: none;
+    appearance: none;
+  }
 }
 .subHeadList:hover {
   background-color: #b1d8ffef;

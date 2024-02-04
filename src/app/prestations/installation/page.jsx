@@ -62,14 +62,14 @@ const AutreFormulaire = () => {
       <div className="container mx-auto">
         <div className="relative">
           <div className="flex flex-col z-20 items-center justify-center min-h-screen ">
-            {/* <Head>
+            <Head>
               <title>
                 Comment monter, démonter et installer un calculateur de boîte
                 automatique Renault
               </title>
-            </Head> */}
+            </Head>
 
-            <div className="installTitle text-2xl text-center my-10 lg:mx-16 bg-[#EE9D35] text-white z-20 rounded-2xl p-3">
+            <div className="installTitle text-2xl text-center my-10 lg:mx-16 bg-[#ee9e35c4] text-white z-20 rounded-2xl p-3">
               <p>Montage, démontage et reprogrammation du calculateur </p>
               <a href="/produit" className="font-bold">
                 Renault (Clio IV, Captur, Mégane, Scénic) ou Ford Focus

@@ -9,7 +9,7 @@ export default function Produits() {
         <div className="">
           <main className="flex  flex-col z-20 relative">
             <div className="productTitle mx-auto">
-              <div className="product bg-[#EE9D35] py-4 text-center rounded-md">
+              <div className="product bg-[#ee9e35c4] py-4 text-center rounded-md">
                 <h2 className="subTitleText font-bold text-white">
                   Trouvez Ici votre
                 </h2>
