@@ -70,7 +70,7 @@ const Contact = () => {
             </title>
           </Head> */}
 
-          <div className="conatctTitleBody bg-[#EE9D35] md:w-[846px] py-4 text-center rounded-md mb-5">
+          <div className="conatctTitleBody bg-[#ee9e35c4] md:w-[846px] py-4 text-center rounded-md mb-5">
             <h1 className="contactFormTitle font-bold  my-3 text-white">
               Contactez-nous
             </h1>
