@@ -229,7 +229,7 @@ nextjs-portal {
     margin-top: 10px;
   }
   .bannerSection {
-    padding: 100px 10px !important;
+    padding: 120px 0 40px 0 !important;
   }
   .bannerMain {
     flex-direction: column-reverse;
@@ -237,6 +237,9 @@ nextjs-portal {
   }
   .bannerMain h1 {
     font-size: 30px;
+  }
+  .breakClass {
+    display: none;
   }
   .bannerMain h2 {
     font-size: 22px;
@@ -252,7 +255,7 @@ nextjs-portal {
     padding: 0 10px;
   }
   .carsCard {
-    width: 150px !important;
+    width: 100% !important;
   }
   .viddeo {
     width: 100% !important;
@@ -277,7 +280,7 @@ nextjs-portal {
     font-size: 30px;
   }
   .produits {
-    padding: 100px 15px !important;
+    padding: 100px 15px 30px 15px;
   }
   .progTitle {
     font-size: 30px;
@@ -297,7 +300,7 @@ nextjs-portal {
     flex-direction: column-reverse;
   }
   .carsCategory {
-    padding: 100px 15px;
+    padding: 130px 15px 50px 15px;
   }
   .capture {
     margin-top: 15px;
@@ -314,5 +317,43 @@ nextjs-portal {
   .installTitle,
   .installForm {
     width: 100%;
+  }
+  .homeButtons {
+    width: 175px !important;
+  }
+  .homeButtonsParent {
+    gap: 20px;
+    padding: 0 10px;
+  }
+  .buttonsBlue {
+    margin-left: 0;
+  }
+  .myFooter {
+    text-align: center;
+  }
+  .footerMid {
+    margin: 30px 0;
+  }
+  .headerMainCont {
+    padding: 10px;
+  }
+  .productscards {
+    display: inline;
+  }
+  .product3rdCont {
+    padding: 0 15px;
+  }
+  .singleProductCard {
+    margin-bottom: 15px;
+    padding: 15px;
+  }
+  .helponlinebox {
+    width: 100%;
+  }
+  .produits1 {
+    padding: 120px 0 30px 0 !important;
+  }
+  .orderPrevPage {
+    padding: 20px 5px !important;
   }
 }

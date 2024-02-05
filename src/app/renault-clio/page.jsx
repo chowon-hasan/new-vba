@@ -48,7 +48,7 @@ const RenaultClio = () => {
                 </h2>
               </div>
               <div className="flex justify-center gap-5">
-                <div className="w-1/2 border border-[#EE9D35] rounded-md text-center py-2 px-5 shadow-2xl">
+                <div className="w-1/2 border border-[#EE9D35] rounded-md text-center py-2 px-2 shadow-2xl">
                   <Link
                     href="/produits/essence/renault-clioiv"
                     className="hover:underline hover:text-orangevba"
@@ -58,7 +58,7 @@ const RenaultClio = () => {
                     </h2>
                   </Link>
                 </div>
-                <div className="w-1/2 border border-[#EE9D35] rounded-md text-center py-2 px-5 shadow-2xl">
+                <div className="w-1/2 border border-[#EE9D35] rounded-md text-center py-2 px-2 shadow-2xl">
                   <Link
                     className="hover:underline hover:text-orangevba"
                     href="/produits/diesel-a-partir-de/renault-clioiv"

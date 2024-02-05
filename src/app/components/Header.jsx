@@ -51,7 +51,7 @@ export default function Header() {
     <section className="bg-white/90 fixed w-full z-50">
       <div className="container mx-auto border-[#c9c9c9]">
         <nav className="">
-          <div className="flex flex-wrap items-center justify-between mx-auto py-3">
+          <div className="flex flex-wrap items-center justify-between mx-auto py-3 headerMainCont">
             <Link href="/" className="">
               <div className="w-[290px]">
                 <img
@@ -98,7 +98,7 @@ export default function Header() {
               <div className="font-medium text-lg flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0">
                 <Link
                   href="/produits"
-                  className="block  py-2 pl-3 pr-4 text-black md:hover:text-[#EE9D35] md:p-0 dark:text-black md:dark:hover:text-[#EE9D35] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  className="block  py-2 pl-3 pr-4 text-black md:hover:text-[#EE9D35] md:p-0 dark:text-black md:dark:hover:text-[#EE9D35] dark:hover:bg-[#EE9D35] dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   Produits
                 </Link>
@@ -106,7 +106,7 @@ export default function Header() {
                 <div ref={dropdownRef} className="relative group">
                   <button
                     onClick={handlePrestationToggle}
-                    className="block py-2 pl-3 pr-4  text-black md:hover:text-[#EE9D35] md:p-0 dark:text-black md:dark:hover:text-[#EE9D35] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                    className="block py-2 pl-3 pr-4  text-black md:hover:text-[#EE9D35] md:p-0 dark:text-black md:dark:hover:text-[#EE9D35] dark:hover:bg-[#EE9D35] dark:hover:text-white md:dark:hover:bg-transparent"
                   >
                     Prestation
                   </button>
@@ -136,14 +136,14 @@ export default function Header() {
 
                 <Link
                   href="/aide-en-ligne"
-                  className="block  py-2 pl-3 pr-4 text-black md:hover:text-[#EE9D35] md:p-0 dark:text-black md:dark:hover:text-[#EE9D35] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  className="block  py-2 pl-3 pr-4 text-black md:hover:text-[#EE9D35] md:p-0 dark:text-black md:dark:hover:text-[#EE9D35] dark:hover:bg-[#EE9D35] dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   Aide en ligne
                 </Link>
 
                 <Link
                   href="/contact"
-                  className="block  py-2 pl-3 pr-4 text-black md:hover:text-black md:p-0 dark:text-black md:dark:hover:text-[#EE9D35] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  className="block  py-2 pl-3 pr-4 text-black md:hover:text-black md:p-0 dark:text-black md:dark:hover:text-[#EE9D35] dark:hover:bg-[#EE9D35] dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   Contact
                 </Link>
@@ -155,7 +155,7 @@ export default function Header() {
                   </button>
                 </Link>
                 <Link href="/selectionnez-votre-vehicule">
-                  <button className="bg-[#418FFF] ms-3 text-white py-3 px-5 rounded-md hover:bg-[#B1D8FF] hover:text-black">
+                  <button className="bg-[#EE9D35] ms-3 text-white py-3 px-8 rounded-md hover:bg-[#B1D8FF] hover:text-black">
                     Véhicule
                   </button>
                 </Link>

@@ -31,7 +31,7 @@ const Home = () => {
             <div className="lg:w-1/2">
               <div className="">
                 <h1 className="text-[40px] font-bold">
-                  Calculateur <br />
+                  Calculateur <br className="breakClass" />
                   Vente - Reprogrammation
                 </h1>
                 <h2 className="text-3xl font-bold my-3">
@@ -178,13 +178,13 @@ const Home = () => {
                   </div>
                 </div>
 
-                <div className="flex">
-                  <div style={{ width: "180px" }} className="">
+                <div className="flex homeButtonsParent">
+                  <div style={{ width: "180px" }} className="homeButtons">
                     <Link href="/produits">
                       <button className="buttonsOrange">DISPONIBILITE</button>
                     </Link>
                   </div>
-                  <div style={{ width: "180px" }} className="">
+                  <div style={{ width: "180px" }} className="homeButtons">
                     <Link href="/aide-en-ligne">
                       <button className="buttonsBlue">AIDE EN LIGNE</button>
                     </Link>

@@ -30,7 +30,7 @@ const RenaultCapture = () => {
             </div>
           </div>
           <div className="md:w-1/2 capture">
-            <div className="md:w-[400px] pb-[130px] rounded-md shadow-2xl p-5 bg-white">
+            <div className="md:w-[400px] md:pb-[130px] rounded-md shadow-2xl p-5 bg-white">
               <img
                 src="https://cdn.discordapp.com/attachments/878674914268311625/1195467343338414080/image-removebg-preview_2.png?ex=65b418b9&is=65a1a3b9&hm=ad53e7617b50737997033def5eef3070494854056e293870a4cc49d931461640&" // Remplacez par le bon chemin de l'image
                 alt="Calculateur avec carton"
@@ -57,7 +57,7 @@ const RenaultCapture = () => {
                     </h2>
                   </Link>
                 </div>
-                <div className="w-1/2 border border-[#EE9D35] rounded-md text-center py-2 px-5 shadow-2xl">
+                <div className="w-1/2 border border-[#EE9D35] rounded-md text-center py-2 px-2 shadow-2xl">
                   <Link
                     className="hover:underline hover:text-orangevba"
                     href="/produits/diesel-a-partir-de/renault-captur"

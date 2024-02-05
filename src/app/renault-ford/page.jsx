@@ -48,13 +48,23 @@ const RenaultFord = () => {
                 </h2>
               </div>
               <div className="flex justify-start gap-5 ">
-                <div className="w-1/2 border border-[#EE9D35] rounded-md text-center py-2 px-5 shadow-2xl">
+                <div className="w-1/2 border border-[#EE9D35] rounded-md text-center py-2 px-2 shadow-2xl">
                   <Link
                     href="/produits/essence/ford-focus"
                     className="hover:underline hover:text-orangevba"
                   >
                     <h2>
-                      1.6 <br /> Essence <br />à partir de 2010
+                      1.2 <br /> Essence <br />à partir de 2010
+                    </h2>
+                  </Link>
+                </div>
+                <div className="w-1/2 border border-[#EE9D35] rounded-md text-center py-2 px-2 shadow-2xl">
+                  <Link
+                    href="/produits/diesel-a-partir-de/ford-focus"
+                    className="hover:underline hover:text-orangevba"
+                  >
+                    <h2>
+                      1.6 <br /> Diesel <br />à partir de 2008
                     </h2>
                   </Link>
                 </div>

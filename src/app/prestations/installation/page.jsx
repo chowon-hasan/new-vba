@@ -71,7 +71,7 @@ const AutreFormulaire = () => {
 
             <div className="installTitle text-2xl text-center my-10 lg:mx-16 bg-[#ee9e35c4] text-white z-20 rounded-2xl p-3">
               <p>Montage, démontage et reprogrammation du calculateur </p>
-              <a href="/produit" className="font-bold">
+              <a href="/produits" className="font-bold">
                 Renault (Clio IV, Captur, Mégane, Scénic) ou Ford Focus
               </a>
               <span className="block mt-2 contactTitle">

@@ -15,7 +15,7 @@ const Footer = () => {
         <hr className="border border-[#c9c9c9]" />
         <hr className="mt-[3px] border border-[#c9c9c9]" />
         <footer className="myFooter bg-[#ffffff] border-[#c9c9c9] text-black py-4 ">
-          <div className="flex flex-wrap justify-between gap-4">
+          <div className="md:flex flex-wrap justify-between gap-4">
             <div className="">
               <a href="https://maps.app.goo.gl/p7MQH6a2DYB64of59">
                 <span className="hover:text-[#EE9D35] text-[15px]">
@@ -52,7 +52,7 @@ const Footer = () => {
               </a>
             </div>
             {/*  */}
-            <div className="text-center">
+            <div className="text-center footerMid">
               <div>
                 <Link
                   className="hover:text-[#EE9D35] font-bold text-[16px]"
