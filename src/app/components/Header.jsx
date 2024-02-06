@@ -92,7 +92,10 @@ export default function Header() {
                   Produits
                 </Link>
 
-                <div ref={dropdownRef} className="relative group">
+                <div
+                  ref={dropdownRef}
+                  className="relative group hover:bg-[#EE9D35] hover:text-white"
+                >
                   <button
                     onClick={handlePrestationToggle}
                     className="block py-2 pl-3 pr-4  text-black md:hover:text-[#EE9D35] md:p-0 dark:text-black md:dark:hover:text-[#EE9D35] dark:hover:bg-[#EE9D35] dark:hover:text-white md:dark:hover:bg-transparent"
