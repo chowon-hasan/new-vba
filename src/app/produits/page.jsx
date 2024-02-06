@@ -9,7 +9,7 @@ export default function Produits() {
         <div className="product3rdCont">
           <main className="flex  flex-col z-20 relative">
             <div className="productTitle mx-auto">
-              <div className="product bg-[#ee9e35c4] py-4 text-center rounded-md">
+              <div className="product bg-[#ee9e356b] py-4 text-center rounded-md">
                 <h2 className="subTitleText font-bold text-white">
                   Trouvez Ici votre
                 </h2>
@@ -27,7 +27,7 @@ export default function Produits() {
 
             <div className="productscards grid grid-cols-3 justify-center gap-5 mt-5">
               {/* Produits */}
-              <div className="lg:w-full rounded-md shadow-2xl p-5 bg-white singleProductCard">
+              <div className="lg:w-full rounded-md shadow-2xl p-5 singleProductCard">
                 <img
                   src="https://cdn.discordapp.com/attachments/878674914268311625/1195467343338414080/image-removebg-preview_2.png?ex=65b418b9&is=65a1a3b9&hm=ad53e7617b50737997033def5eef3070494854056e293870a4cc49d931461640&" // Remplacez par le bon chemin de l'image
                   alt="Calculateur avec carton"

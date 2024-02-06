@@ -35,7 +35,8 @@ const Home = () => {
                   Vente - Reprogrammation
                 </h1>
                 <h2 className="text-3xl font-bold my-3">
-                  Boites automatiques DC4 - 6DCT250
+                  Boites automatiques DC4{" "}
+                  <span className="bannerCodeSpan"> - 6DCT250</span>
                 </h2>
                 <h2 className="text-3xl font-bold my-3">
                   Renault - Ford pour vehicules :

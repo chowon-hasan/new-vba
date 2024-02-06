@@ -4,7 +4,7 @@ import Head from "next/head";
 import Link from "next/link";
 export default function Clonage() {
   return (
-    <section className="py-[60px] produits">
+    <section className="py-[60px] installation produits">
       <div className="relative">
         {/* <Head>
           <title>

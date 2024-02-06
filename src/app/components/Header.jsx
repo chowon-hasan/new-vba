@@ -1,13 +1,12 @@
 "use client";
 import Link from "next/link";
 import { useState, useRef, useEffect } from "react";
-import { useRouter } from "next/navigation";
+// import { useRouter } from "next/router";
 
 export default function Header() {
   const [navbar, setNavbar] = useState(false);
   const [prestationDropdown, setPrestationDropdown] = useState(false);
   const dropdownRef = useRef(null);
-  const router = useRouter();
 
   const handleNavbarToggle = () => {
     setNavbar(!navbar);
@@ -32,21 +31,10 @@ export default function Header() {
     };
   }, []);
 
-  useEffect(() => {
-    setPrestationDropdown(false);
-  }, [router.pathname]);
+  const closeNavbar = () => {
+    setNavbar(false);
+  };
 
-  useEffect(() => {
-    document.addEventListener("click", handleDocumentClick);
-
-    return () => {
-      document.removeEventListener("click", handleDocumentClick);
-    };
-  }, []);
-
-  useEffect(() => {
-    setPrestationDropdown(false);
-  }, [router.pathname]);
   return (
     <section className="bg-white/90 fixed w-full z-50">
       <div className="container mx-auto border-[#c9c9c9]">
@@ -69,7 +57,7 @@ export default function Header() {
               className="inline-flex items-center bg-[#EE9D35] p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden hover:bg-[#EE9D35] hover:text-white focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-white dark:hover:bg-[#EE9D35]dark:focus:ring-gray-600"
               aria-controls="navbar-default"
               aria-expanded="false"
-              onClick={() => setNavbar(!navbar)}
+              onClick={handleNavbarToggle}
             >
               <span className="sr-only">Open main menu</span>
               <svg
@@ -97,6 +85,7 @@ export default function Header() {
             >
               <div className="font-medium text-lg flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0">
                 <Link
+                  onClick={closeNavbar}
                   href="/produits"
                   className="block  py-2 pl-3 pr-4 text-black md:hover:text-[#EE9D35] md:p-0 dark:text-black md:dark:hover:text-[#EE9D35] dark:hover:bg-[#EE9D35] dark:hover:text-white md:dark:hover:bg-transparent"
                 >
@@ -116,6 +105,7 @@ export default function Header() {
                       <div className="subHeadList">
                         {" "}
                         <Link
+                          onClick={closeNavbar}
                           href="/prestations/programmation"
                           className="subHeadList1 block p-4 py-2"
                         >
@@ -124,6 +114,7 @@ export default function Header() {
                       </div>
                       <div className="subHeadList">
                         <Link
+                          onClick={closeNavbar}
                           href="/prestations/installation"
                           className="subHeadList1 block p-4 py-2"
                         >
@@ -135,6 +126,7 @@ export default function Header() {
                 </div>
 
                 <Link
+                  onClick={closeNavbar}
                   href="/aide-en-ligne"
                   className="block  py-2 pl-3 pr-4 text-black md:hover:text-[#EE9D35] md:p-0 dark:text-black md:dark:hover:text-[#EE9D35] dark:hover:bg-[#EE9D35] dark:hover:text-white md:dark:hover:bg-transparent"
                 >
@@ -142,6 +134,7 @@ export default function Header() {
                 </Link>
 
                 <Link
+                  onClick={closeNavbar}
                   href="/contact"
                   className="block  py-2 pl-3 pr-4 text-black md:hover:text-black md:p-0 dark:text-black md:dark:hover:text-[#EE9D35] dark:hover:bg-[#EE9D35] dark:hover:text-white md:dark:hover:bg-transparent"
                 >
@@ -149,12 +142,12 @@ export default function Header() {
                 </Link>
               </div>
               <div className="headButtonRes">
-                <Link href="/aide-en-ligne">
+                <Link href="/aide-en-ligne" onClick={closeNavbar}>
                   <button className="bg-[#287FFE] text-white py-3 px-5 rounded-md hover:bg-[#B1D8FF] hover:text-black">
                     Aide En Ligne
                   </button>
                 </Link>
-                <Link href="/selectionnez-votre-vehicule">
+                <Link href="/selectionnez-votre-vehicule" onClick={closeNavbar}>
                   <button className="bg-[#EE9D35] ms-3 text-white py-3 px-8 rounded-md hover:bg-[#B1D8FF] hover:text-black">
                     Véhicule
                   </button>

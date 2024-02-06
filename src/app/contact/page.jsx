@@ -60,7 +60,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="produits">
+    <section className="produits installation">
       <div className="relative">
         <div className="flex flex-col  items-center justify-center min-h-screen">
           {/* <Head>
