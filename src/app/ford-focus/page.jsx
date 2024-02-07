@@ -16,7 +16,7 @@ const RenaultFord = () => {
                 style={{ width: "340px", height: "178px" }}
                 width={500}
                 height={300}
-                src="/images/fordFocus.png"
+                src="/images/calculateur_DC4_ford_Focus.png"
                 className="mx-auto"
               ></img>
               <p className="text-justify mt-5">

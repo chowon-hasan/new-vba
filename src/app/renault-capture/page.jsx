@@ -13,7 +13,7 @@ const RenaultCapture = () => {
               <img
                 width={490}
                 height={290}
-                src="/images/renault-capture.webp"
+                src="/images/calculateur_DC4_Renault_Capture.webp"
                 className="mx-auto"
               ></img>
               <p className="text-justify">

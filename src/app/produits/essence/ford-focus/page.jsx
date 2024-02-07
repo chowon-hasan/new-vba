@@ -2,11 +2,11 @@
 export default function Renault() {
   return (
     <div className="relative produits">
-      <div className="md:min-h-screen w-full z-20  items-center justify-center flex  flex-col lg:p-24 z-20 relative">
+      <div className="md:min-h-screen w-full items-center justify-center flex  flex-col lg:p-24 z-20 relative">
         <div className="orderPrevPage group rounded-xl shadow-2xl md:p-8 transition-color  border-2 bg-white/90 border-orangevba  md:w-3/5 lg:w-3/5 xl:w-5/12 text-center">
           <div className="text-right text-2xl ">890,00€</div>
           <img
-            src="https://cdn.discordapp.com/attachments/878674914268311625/1197200107137945721/image-removebg-preview_2.png?ex=65ba667c&is=65a7f17c&hm=3e901c63f28aadd61acaa2eb13a53381418f7692d17402350e3da1c049712467&"
+            src="/images/Calculateur_Renault_A2C30743000_01_K00.png"
             alt="Calculateur avec carton"
             className="w-56 m-auto mb-4"
           />

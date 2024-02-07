@@ -16,7 +16,7 @@ const RenaultClio = () => {
                 style={{ width: "400px", height: "200px" }}
                 width={400}
                 height={200}
-                src="/images/Renault-CLIO.png"
+                src="/images/calculateur_DC4_Renault_Clio4.png"
                 className="mx-auto"
               ></img>
               <p className="text-justify mt-5">

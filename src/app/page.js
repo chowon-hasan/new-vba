@@ -59,7 +59,7 @@ const Home = () => {
                         <img
                           width={100}
                           height={100}
-                          src="/images/renault-capture.webp"
+                          src="/images/calculateur_DC4_Renault_Capture.webp"
                           alt=""
                           className="m-auto"
                         ></img>
@@ -81,7 +81,7 @@ const Home = () => {
                         <img
                           width={85}
                           height={85}
-                          src="/images/renault-megane.png"
+                          src="/images/calculateur_DC4_renault-megane.png"
                           alt=""
                           className="m-auto"
                         ></img>
@@ -103,7 +103,7 @@ const Home = () => {
                         <img
                           width={85}
                           height={85}
-                          src="/images/Renault-CLIO.png"
+                          src="/images/calculateur_DC4_Renault_Clio4.png"
                           alt=""
                           className="m-auto"
                         ></img>
@@ -125,7 +125,7 @@ const Home = () => {
                         <img
                           width={85}
                           height={85}
-                          src="/images/renaultsenic.png"
+                          src="/images/calculateur_DC4_renault_Senic.png"
                           alt=""
                           className="m-auto"
                         ></img>
@@ -147,7 +147,7 @@ const Home = () => {
                         <img
                           width={85}
                           height={85}
-                          src="/images/renault-fluence-silver-grey.png"
+                          src="/images/calculateur_DC4_renault-fluence.png"
                           alt=""
                           className="m-auto"
                         ></img>
@@ -165,11 +165,11 @@ const Home = () => {
                       }}
                       className="carsCard"
                     >
-                      <Link href="/renault-ford">
+                      <Link href="/ford-focus">
                         <img
                           width={85}
                           height={85}
-                          src="/images/fordFocus.png"
+                          src="/images/calculateur_DC4_ford_Focus.png"
                           alt=""
                           className="m-auto"
                         ></img>

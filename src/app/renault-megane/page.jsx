@@ -16,7 +16,7 @@ const RenaultMegane = () => {
                 style={{ width: "340px", height: "200px" }}
                 width={400}
                 height={250}
-                src="/images/renault-megane.png"
+                src="/images/calculateur_DC4_renault-megane.png"
                 className="mx-auto"
               ></img>
               <p className="text-justify mt-5">

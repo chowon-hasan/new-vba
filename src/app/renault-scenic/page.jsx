@@ -16,7 +16,7 @@ const RenaultScenic = () => {
                 style={{ width: "340px", height: "200px" }}
                 width={500}
                 height={300}
-                src="/images/renaultsenic.png"
+                src="/images/calculateur_DC4_renault_Senic.png"
                 className="mx-auto"
               ></img>
               <p className="text-justify mt-5">

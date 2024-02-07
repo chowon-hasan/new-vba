@@ -16,7 +16,7 @@ const RenaultFluence = () => {
                 style={{ width: "340px", height: "200px" }}
                 width={500}
                 height={300}
-                src="/images/renault-fluence-silver-grey.png"
+                src="/images/calculateur_DC4_renault-fluence.png"
                 className="mx-auto"
               ></img>
               <p className="text-justify mt-5">

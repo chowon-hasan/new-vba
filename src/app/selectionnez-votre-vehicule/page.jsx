@@ -227,8 +227,8 @@ const ComparePage = () => {
         name: "Ford Focus",
         years: ["2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015"],
         versions: ["Essence 1.6L - 1.6 Tce", "Diesel 1.5L - 1.5 dCi"],
-        hrefEssence: "/renault-ford/essence",
-        hrefDiesel: "/renault-ford/diesel",
+        hrefEssence: "/ford-focus/essence",
+        hrefDiesel: "/ford-focus/diesel",
       },
     ],
   };
