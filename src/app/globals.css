@@ -312,6 +312,7 @@ nextjs-portal {
     width: 100% !important;
   }
   .searchCont {
+    display: flex;
     flex-direction: column-reverse;
   }
   .carsCategory {
@@ -387,5 +388,11 @@ nextjs-portal {
   }
   .instalMobile {
     display: inline;
+  }
+  .researchBitton {
+    text-align: center;
+  }
+  .formLabel {
+    width: 40% !important;
   }
 }

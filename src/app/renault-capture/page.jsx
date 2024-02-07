@@ -2,10 +2,22 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
+const pageDescription =
+  "Vérifiez la disponibilté de votre module de commande de boite de vitesse automatique pour votre boite automatique EDC Renault Captur";
+const HeadingText = "Calculateur pour Renault Captur";
+
 const RenaultCapture = () => {
   return (
     <section className="carsCategory">
       <div className="container mx-auto">
+        <Head>
+          <title>Calculateur pour Renault Captur vierge ou programmé</title>
+          <meta name="description" content={pageDescription} />
+          <meta name="headline" content={HeadingText} />
+        </Head>
+        <div style={{ display: "none" }}>
+          <h1>Calculateur pour Renault Captur</h1>
+        </div>
         <div className="md:flex justify-center items-start gap-5">
           <div className="md:w-1/2">
             <div className="md:w-[400px]  ms-auto bg-white py-5 rounded-md  p-5">

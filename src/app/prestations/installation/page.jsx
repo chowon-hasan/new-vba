@@ -2,6 +2,10 @@
 import Head from "next/head";
 import { useState } from "react";
 
+const pageDescription =
+  "Montage, démontage et reprogrammation de votre calculateur Renault boite automatique (Clio, Captur, Mégane, Scénic) ou Ford Focus :";
+const HeadingText = "Installation montage remontage calculateur Renault";
+
 const AutreFormulaire = () => {
   const [isError, setIsError] = useState(false);
   const [isOk, setIsOk] = useState(false);
@@ -63,11 +67,13 @@ const AutreFormulaire = () => {
         <div className="relative">
           <div className="flex flex-col z-20 items-center justify-center min-h-screen ">
             <Head>
-              <title>
-                Comment monter, démonter et installer un calculateur de boîte
-                automatique Renault
-              </title>
+              <title>Installation montage remontage calculateur Renault</title>
+              <meta name="description" content={pageDescription} />
+              <meta name="headline" content={HeadingText} />
             </Head>
+            <div style={{ display: "none" }}>
+              <h1>Installation montage remontage calculateur Renault</h1>
+            </div>
 
             <div className="installTitle text-2xl text-center my-10 lg:mx-16 bg-[#ee9e35c4] text-white z-20 rounded-2xl p-3">
               <div className="instalLaptop">

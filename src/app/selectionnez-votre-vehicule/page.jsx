@@ -5,6 +5,10 @@
 import { useState } from "react";
 import Link from "next/link";
 
+const pageDescription =
+  "En fonction de votre véhciule renault ou ford focus et de la motorisation, trouver le calcluateur de boite automatique compatible. ";
+const HeadingText = "Trouver en fonction du véhicule le calculateur compatible";
+
 const ComparePage = () => {
   const [selectedBrand, setSelectedBrand] = useState(null);
   const [selectedModel, setSelectedModel] = useState(null);
@@ -266,6 +270,17 @@ const ComparePage = () => {
   return (
     <section className="compare">
       <div className="container mx-auto">
+        <Head>
+          <title>
+            Trouver en fonction du véhicule le calculateur compatible
+          </title>
+          <meta name="description" content={pageDescription} />
+          <meta name="headline" content={HeadingText} />
+        </Head>
+
+        <div style={{ display: "none" }}>
+          <h1>Trouver en fonction du véhicule le calculateur compatible</h1>
+        </div>
         <h2 className="text-[30px] text-center text-white mb-5">
           SELECTIONNEZ VOTRE VEHICULE
         </h2>

@@ -2,16 +2,23 @@
 "use client";
 import Head from "next/head";
 import Link from "next/link";
+
+const pageDescription =
+  "Nous proposons des services de reprogrammation et de clonage de calculateurs pour boîtes automatiques Trenault DC4 avec la valise constructeur ";
+const HeadingText = "Programation calculateur boite automatique Renault";
+
 export default function Clonage() {
   return (
     <section className="py-[60px] installation produits">
       <div className="relative">
-        {/* <Head>
-          <title>
-            Programmation et clonage de votre Calculateur de boîte automatiques
-            Renault{" "}
-          </title>
-        </Head> */}
+        <Head>
+          <title>Programation calculateur boite automatique Renault DC4</title>
+          <meta name="description" content={pageDescription} />
+          <meta name="headline" content={HeadingText} />
+        </Head>
+        <div style={{ display: "none" }}>
+          <h1>Programation calculateur boite automatique Renault</h1>
+        </div>
         {/* Texte au-dessus de l'image */}
         <main className="flex min-h-screen items-center lg:p-8 sm:p-5 md-8 justify-center relative text-black">
           <div className="bg-white/95 border-2 border-orangevba rounded-2xl p-8 w-[800px] text-center">

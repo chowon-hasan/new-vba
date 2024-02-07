@@ -16,16 +16,32 @@ const Home = () => {
     router.push("/aide-en-ligne");
   };
 
+  const pageDescription =
+    "Vente et reprogrammation de calculateur pour boite automatique Renault  DC4 6DCT250 GETRAG pour les modèles Captur, Clio 4, Megane et Scénic";
+  const HeadingText = "Vente et reprogrammation de calculateur Renault DC4";
+  const secondaryHeadingText =
+    "calculateur boite automatique Renault Captur, calculateur boite automatique Renault Clio 4, calculateur boite automatique Renault Mégane, calculateur boite automatique Renault scénic, calculateur boite automatique Renault fluence, calculateur boite automatique Ford Focus";
+
   return (
     <section style={{ padding: "180px 0 120px 0" }} className="bannerSection">
       <div className="container mx-auto ">
         <div className="flex items-center justify-center">
           <Head>
-            <title>
-              Fournisseur de Calculateur de boîte automatiques Renault et
-              Reprogrammation
-            </title>
+            <title>Vente et reprogrammation de calculateur Renault DC4</title>
+            <meta name="description" content={pageDescription} />
+            <meta name="headline" content={HeadingText} />
+            <meta name="secondaryHeading" content={secondaryHeadingText} />
           </Head>
+
+          <div style={{ display: "none" }}>
+            <h1>Vente et reprogrammation de calculateur Renault DC4</h1>
+            <h2>calculateur boite automatique Renault Captur</h2>
+            <h2>calculateur boite automatique Renault Clio 4</h2>
+            <h2>calculateur boite automatique Renault Mégane</h2>
+            <h2>calculateur boite automatique Renault scénic</h2>
+            <h2>calculateur boite automatique Renault fluence</h2>
+            <h2>calculateur boite automatique Ford Focus</h2>
+          </div>
 
           <div className="bannerMain flex items-center gap-5">
             <div className="lg:w-1/2">

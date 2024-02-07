@@ -4,6 +4,10 @@ import Head from "next/head";
 import Link from "next/link";
 import { FaAngleRight } from "react-icons/fa";
 
+const pageDescription =
+  "Aide au diagnostic pour résoudre probleme code defaut boite automatique renault (double embrayage à sec, volant moteur, synchros, calculateur)";
+const HeadingText = "Aide en ligne code defaut renault boite automatique";
+
 const MiseEnLigne = () => {
   // <Head>
   //   <title>
@@ -309,8 +313,13 @@ const MiseEnLigne = () => {
         <div className="relative">
           {/* Configuration de la page */}
           <Head>
-            <title>Aide en ligne - Boite de vitesse à contrôler</title>
+            <title>Aide en ligne code defaut renault boite automatique</title>
+            <meta name="description" content={pageDescription} />
+            <meta name="headline" content={HeadingText} />
           </Head>
+          <div style={{ display: "none" }}>
+            <h1>Aide en ligne code defaut renault boite automatique</h1>
+          </div>
 
           {/* Partie gauche - Texte initial */}
           <div className="searchCont md:flex justify-between">
@@ -375,7 +384,7 @@ const MiseEnLigne = () => {
                     className="SearchInput w-full p-2 border border-gray-300 mb-4 rounded text-[16px]"
                   />
 
-                  <div className="">
+                  <div className="researchBitton">
                     <button
                       onClick={handleSearch}
                       className="bg-[#EE9D35] text-[16px] text-white py-[10px] px-[40px] rounded-md hover:bg-[#B1D8FF] hover:text-black"

@@ -2,11 +2,26 @@
 import Image from "next/image";
 import Link from "next/link";
 
+const pageDescription =
+  "Trouver ici dans les produits les différents type de calculateur pour Renault et Ford Focus DC4 6DCT450 A2C30743000";
+const HeadingText = "Types de calculateur boite automatique Renault ";
+// const secondaryHeadingText =
+//   "calculateur boite automatique Renault Captur, calculateur boite automatique Renault Clio 4, calculateur boite automatique Renault Mégane, calculateur boite automatique Renault scénic, calculateur boite automatique Renault fluence, calculateur boite automatique Ford Focus";
+
 export default function Produits() {
   return (
     <section className="produits1" style={{ padding: "100px 0" }}>
       <div className="container mx-auto">
         <div className="product3rdCont">
+          <Head>
+            <title>Les différents types de calculateur Renault </title>
+            <meta name="description" content={pageDescription} />
+            <meta name="headline" content={HeadingText} />
+            {/* <meta name="secondaryHeading" content={secondaryHeadingText} /> */}
+          </Head>
+          <div style={{ display: "none" }}>
+            <h1>Types de calculateur boite automatique Renault</h1>
+          </div>
           <main className="flex  flex-col z-20 relative">
             <div className="productTitle mx-auto">
               <div className="product bg-[#ee9e35c4] py-4 text-center rounded-md">

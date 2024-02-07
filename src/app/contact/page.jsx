@@ -2,6 +2,10 @@
 import Head from "next/head";
 import { useState } from "react";
 
+const pageDescription =
+  "Contactez-nous pour obtneir des informations pour un calculateur boite automatique renault captur, scenic, clio 4, scenic, fluence, ford focus";
+const HeadingText = "Contactez-nous VBA calculateur Renault boite automatique";
+
 const Contact = () => {
   const [isError, setIsError] = useState(false);
   const [isTel, setIsTel] = useState(false);
@@ -63,12 +67,13 @@ const Contact = () => {
     <section className="produits installation">
       <div className="relative">
         <div className="flex flex-col  items-center justify-center min-h-screen">
-          {/* <Head>
+          <Head>
             <title>
-              Contactez-nous pour commander un calculateur de boîte automatique
-              Renault
+              Contactez-nous VBA calculateur Renault boite automatique
             </title>
-          </Head> */}
+            <meta name="description" content={pageDescription} />
+            <meta name="headline" content={HeadingText} />
+          </Head>
 
           <div className="conatctTitleBody bg-[#ee9e35c4] md:w-[846px] py-4 text-center rounded-md mb-5">
             <h1 className="contactFormTitle font-bold  my-3 text-white">
