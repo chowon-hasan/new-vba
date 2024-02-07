@@ -33,7 +33,7 @@ export default function Clonage() {
             </div>
             <p className="mb-4">Références compatibles :</p>
             <div className="flex justify-center">
-              <div className="w-full italic text-gray-600">
+              <div className="w-full italic text-gray-600 instalLaptop">
                 <p>
                   3A2C3074300 - 0310320749R - 310320891R - 310320756R -
                   310321109R
@@ -57,6 +57,22 @@ export default function Clonage() {
                 <p className="text-[15px]">
                   A2C30743000 01 K00 - A2C53374830 03 K01 - A2C30743100 -
                   A2C73768907
+                </p>
+              </div>
+              <div className="w-full italic text-gray-600 instalMobile">
+                <p>
+                  3A2C3074300 - 0310320749R <br /> 310320891R - 310320756R{" "}
+                  <br />
+                  310321109R 310321488R <br /> 310321517R - 310320841R <br />{" "}
+                  310320717R - 310320892R <br /> 310320721R - 310321520R <br />{" "}
+                  310321561R - A4539006303
+                  <br /> 310321808R - 310321150R <br /> 310321421R - 310321706R{" "}
+                  <br />
+                  310321716R - 310321793R <br /> 310321662R - 310321524R <br />{" "}
+                  310321994R - 310322059R <br /> 310F93913R - 310321149R <br />{" "}
+                  310321306R - 310320553R
+                  <br /> 310321359R - 310321488R <br /> A2C30743000 01 K00 -
+                  A2C53374830 03 K01 <br /> A2C30743100 - A2C73768907
                 </p>
               </div>
             </div>

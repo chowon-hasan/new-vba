@@ -13,7 +13,7 @@ const Footer = () => {
     <section>
       <div className="container mx-auto">
         <hr className="border border-[#c9c9c9]" />
-        <hr className="mt-[3px] border border-[#c9c9c9]" />
+        {/* <hr className="mt-[3px] border border-[#c9c9c9]" /> */}
         <footer className="myFooter bg-[#ffffff] border-[#c9c9c9] text-black py-4 ">
           <div className="md:flex flex-wrap justify-between gap-4">
             <div className="">
@@ -82,7 +82,7 @@ const Footer = () => {
                   Contact
                 </Link>
               </div>
-              <h3 className="pt-1 font-bold text-[16px]">
+              <h3 className="pt-1  text-[16px]">
                 VBA |{" "}
                 <a href="tel:0756944719" className="hover:text-[#EE9D35]">
                   07 56 94 47 19
@@ -90,14 +90,14 @@ const Footer = () => {
               </h3>
               <a
                 href="https://maps.app.goo.gl/p7MQH6a2DYB64of59"
-                className="hover:text-[#EE9D35] font-bold"
+                className="hover:text-[#EE9D35]"
               >
                 110 rue de fontenay 94080 Vincennes
               </a>
               <p>
                 <a
                   href="mailto:contact@laboiteautomatique.com"
-                  className="hover:text-[#EE9D35] font-bold"
+                  className="hover:text-[#EE9D35]"
                 >
                   contact@laboiteautomatique.com
                 </a>{" "}

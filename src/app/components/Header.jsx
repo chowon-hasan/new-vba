@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useState, useRef, useEffect } from "react";
+import { FaAngleDown, FaArrowDown } from "react-icons/fa";
 // import { useRouter } from "next/router";
 
 export default function Header() {
@@ -36,7 +37,7 @@ export default function Header() {
   };
 
   return (
-    <section className="bg-white/90 fixed w-full z-50">
+    <section className="bg-white/90 fixed w-full z-50 headerSection">
       <div className="container mx-auto border-[#c9c9c9]">
         <nav className="">
           <div className="flex flex-wrap items-center justify-between mx-auto py-3 headerMainCont">
@@ -80,7 +81,7 @@ export default function Header() {
             <div
               className={`w-full md:w-auto md:block ${
                 navbar ? "block" : "hidden"
-              } lg:pr-5`}
+              } `}
               id="navbar-default"
             >
               <div className="font-medium text-lg flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0">
@@ -92,15 +93,26 @@ export default function Header() {
                   Produits
                 </Link>
 
-                <div
-                  ref={dropdownRef}
-                  className="relative group hover:bg-[#EE9D35] hover:text-white"
-                >
+                <div ref={dropdownRef} className="relative group">
                   <button
+                    style={{
+                      display: "flex",
+
+                      alignItems: "center",
+                    }}
                     onClick={handlePrestationToggle}
-                    className="block py-2 pl-3 pr-4  text-black md:hover:text-[#EE9D35] md:p-0 dark:text-black md:dark:hover:text-[#EE9D35] dark:hover:bg-[#EE9D35] dark:hover:text-white md:dark:hover:bg-transparent"
+                    className="subMenuHeader block py-2 pl-3 pr-4  text-black md:hover:text-[#EE9D35] md:p-0 dark:text-black md:dark:hover:text-[#EE9D35] dark:hover:bg-[#EE9D35] dark:hover:text-white md:dark:hover:bg-transparent"
                   >
-                    Prestation
+                    Prestation{" "}
+                    <span
+                      style={{
+                        display: "inline-block",
+
+                        marginLeft: "3px",
+                      }}
+                    >
+                      <FaAngleDown />
+                    </span>
                   </button>
 
                   {prestationDropdown && (
@@ -173,7 +185,7 @@ export default function Header() {
           </div>
         </nav>
         <hr className="border border-[#c9c9c9]" />
-        <hr className="mt-[3px] border border-[#c9c9c9]" />
+        {/* <hr className="mt-[3px] border border-[#c9c9c9]" /> */}
       </div>
     </section>
   );

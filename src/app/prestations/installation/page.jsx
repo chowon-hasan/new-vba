@@ -70,19 +70,40 @@ const AutreFormulaire = () => {
             </Head>
 
             <div className="installTitle text-2xl text-center my-10 lg:mx-16 bg-[#ee9e35c4] text-white z-20 rounded-2xl p-3">
-              <p>Montage, démontage et reprogrammation du calculateur </p>
-              <a href="/produits" className="font-bold">
-                Renault (Clio IV, Captur, Mégane, Scénic) ou Ford Focus
-              </a>
-              <span className="block mt-2 contactTitle">
-                Contactez-nous via le formulaire ci-dessous ou par tél. au{" "}
-                <a
-                  className="hover:text-bleuvba  font-bold"
-                  href="tel:0756944719"
-                >
-                  07 56 94 47 19
+              <div className="instalLaptop">
+                <p>Montage, démontage et reprogrammation du calculateur </p>
+                <a href="/produits" className="font-bold">
+                  Renault (Clio IV, Captur, Mégane, Scénic) ou Ford Focus
                 </a>
-              </span>
+                <span className="block mt-2 contactTitle">
+                  Contactez-nous via le formulaire ci-dessous ou par tél. au{" "}
+                  <a
+                    className="hover:text-bleuvba  font-bold"
+                    href="tel:0756944719"
+                  >
+                    07 56 94 47 19
+                  </a>
+                </span>
+              </div>
+              <div className="instalMobile">
+                <p>
+                  Montage <br /> démontage <br /> reprogrammation <br />{" "}
+                  calculateur{" "}
+                </p>
+                <a href="/produits" className="font-bold">
+                  Renault Clio IV, Captur <br /> Mégane, Scénic <br /> Ford
+                  Focus
+                </a>
+                <span className="block mt-2 text-[18px]">
+                  Contactez-nous via le formulaire ou bien par tél. au <br />
+                  <a
+                    className="hover:text-bleuvba  font-bold"
+                    href="tel:0756944719"
+                  >
+                    07 56 94 47 19
+                  </a>
+                </span>
+              </div>
             </div>
             <div className="installForm">
               <form

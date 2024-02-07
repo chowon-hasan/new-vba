@@ -36,6 +36,9 @@ nextjs-portal {
 .link-bg:hover {
   background-color: #ee9d35;
 }
+.instalMobile {
+  display: none;
+}
 .produits1 {
   background-image: linear-gradient(#0000004f, #00000049),
     url(/images/productBG.png);
@@ -229,6 +232,9 @@ nextjs-portal {
   .headButton {
     display: none;
   }
+  .headerSection {
+    background-color: #ffffffd5;
+  }
   .bannerCodeSpan {
     display: none;
   }
@@ -238,7 +244,7 @@ nextjs-portal {
     margin-top: 10px;
   }
   .bannerSection {
-    padding: 120px 0 40px 0 !important;
+    padding: 120px 10px 40px 10px !important;
   }
   .bannerMain {
     flex-direction: column-reverse;
@@ -371,5 +377,15 @@ nextjs-portal {
   .compareParent {
     width: 100%;
     padding: 0 10px;
+  }
+  .subMenuHeader {
+    width: 100%;
+    text-align: right;
+  }
+  .instalLaptop {
+    display: none;
+  }
+  .instalMobile {
+    display: inline;
   }
 }
