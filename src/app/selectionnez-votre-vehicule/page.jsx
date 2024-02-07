@@ -4,6 +4,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Head from "next/head";
 
 const pageDescription =
   "En fonction de votre véhciule renault ou ford focus et de la motorisation, trouver le calcluateur de boite automatique compatible. ";

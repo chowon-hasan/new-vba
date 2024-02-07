@@ -1,8 +1,23 @@
 "use client";
+import Head from "next/head";
+
+const pageDescription =
+  "Vérifiez la disponibilté de votre module de commande de boite de vitesse automatique pour votre boite automatique EDC Renault Captur Diesel";
+const HeadingText = "Calculateur pour Renault Captur Diesle ";
+
 export default function Renault() {
   return (
     <div className="relative produits">
-      <div className="md:min-h-screen w-full z-20  items-center justify-center flex  flex-col lg:p-24 z-20 relative">
+      <Head>
+        <title>Calculateur pour Renault Captur Diesel</title>
+        <meta name="description" content={pageDescription} />
+        <meta name="headline" content={HeadingText} />
+      </Head>
+
+      <div style={{ display: "none" }}>
+        <h1>Calculateur pour Renault Captur Diesle </h1>
+      </div>
+      <div className="md:min-h-screen w-full  items-center justify-center flex  flex-col lg:p-24 z-20 relative">
         <div className="orderPrevPage group rounded-xl shadow-2xl md:p-8 transition-color  border-2 bg-white/90 border-orangevba  md:w-3/5 lg:w-3/5 xl:w-5/12 text-center">
           <div className="text-right text-2xl ">890,00€</div>
           <img
