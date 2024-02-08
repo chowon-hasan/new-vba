@@ -395,4 +395,12 @@ nextjs-portal {
   .formLabel {
     width: 40% !important;
   }
+  .notFoundPage {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .notFoundContent {
+    text-align: center;
+    padding: 0 10px;
+  }
 }

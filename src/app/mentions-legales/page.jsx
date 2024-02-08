@@ -1,8 +1,22 @@
 import Link from "next/link";
+import Head from "next/head";
+
+const pageDescription =
+  "Vérifiez la disponibilté de votre module de commande de boite de vitesse automatique pour votre boite automatique EDC Renault Captur Diesel";
+const HeadingText = "Mentions legales VBA calculateur Renault";
 
 export default function Mentions() {
   return (
     <section className="pt-32 pb-16">
+      <Head>
+        <title>Calculateur pour Renault Captur Diesel</title>
+        <meta name="description" content={pageDescription} />
+        <meta name="headline" content={HeadingText} />
+      </Head>
+
+      <div style={{ display: "none" }}>
+        <h1>Mentions legales VBA calculateur Renault</h1>
+      </div>
       <div className="container mx-auto p-8 bg-gray-100 dark:bg-gray-800 rounded-2xl text-gray-700 dark:text-gray-300">
         <h1 className="text-3xl font-bold mb-4">INFORMATIONS LÉGALES</h1>
 

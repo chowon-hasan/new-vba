@@ -1,10 +1,24 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import Head from "next/head";
+
+const pageDescription =
+  "Vérifiez la disponibilté de votre module de commande de boite de vitesse automatique pour votre boite automatique EDC Ford focus ";
+const HeadingText = "Calculateur pour Ford Focus DC4 boite auto  ";
 
 const RenaultFord = () => {
   return (
     <section className="carsCategory">
+      <Head>
+        <title>Calculateur pour Ford Focus DC4 boite auto </title>
+        <meta name="description" content={pageDescription} />
+        <meta name="headline" content={HeadingText} />
+      </Head>
+
+      <div style={{ display: "none" }}>
+        <h1>Calculateur pour Ford Focus DC4 boite auto </h1>
+      </div>
       <div className="container mx-auto">
         <div className="md:flex justify-center items-start gap-5">
           <div className="md:w-1/2">
