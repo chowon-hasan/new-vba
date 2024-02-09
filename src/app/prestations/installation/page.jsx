@@ -75,7 +75,7 @@ const AutreFormulaire = () => {
               <h1>Installation montage remontage calculateur Renault</h1>
             </div>
 
-            <div className="installTitle text-2xl text-center mb-5 mt-8 lg:mx-16 bg-[#FAF9F8] border border-orangevba text-white z-20 rounded-md p-3">
+            <div className="installTitle text-2xl text-center mb-5 mt-8 lg:mx-16 bg-[#FAF9F8] border border-orangevba  z-20 rounded-md p-3">
               <div className="instalLaptop text-[#374151]">
                 <p>Montage, démontage et reprogrammation du calculateur </p>
                 <a href="/produits" className="font-bold">
@@ -91,7 +91,7 @@ const AutreFormulaire = () => {
                   </a>
                 </span>
               </div>
-              <div className="instalMobile">
+              <div className="instalMobile text-[#374151]">
                 <p>
                   Montage <br /> démontage <br /> reprogrammation <br />{" "}
                   calculateur{" "}

@@ -21,12 +21,12 @@ export default function Clonage() {
         </div>
         {/* Texte au-dessus de l'image */}
         <main className="flex flex-col min-h-[98vh] items-center lg:p-8 sm:p-5 md-8 justify-center relative text-black">
-          <div className="bg-[#F5F4F4] mb-5 w-[850px] rounded-md border text-center border-orangevba py-5">
+          <div className="bg-[#F5F4F4] mb-5 md:w-[850px] rounded-md border text-center border-orangevba py-5">
             <p className="progTitle font-bold text-[#374151]">
               Services de Programmation
             </p>
           </div>
-          <div className="bg-white/95 border border-orangevba rounded-md pt-3 px-5 pb-8 w-[850px] text-center">
+          <div className="bg-white/95 border border-orangevba rounded-md pt-3 px-5 pb-8 md:w-[850px] text-center">
             <div className="mb-8 text-lg">
               <p className="text-justify text-[16px]">
                 Nous proposons des services de reprogrammation et de clonage de

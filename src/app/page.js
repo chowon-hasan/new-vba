@@ -46,15 +46,18 @@ const Home = () => {
           <div className="bannerMain flex items-center gap-5">
             <div className="lg:w-1/2">
               <div className="">
-                <h1 className="text-[40px] font-bold">
+                <h1 className="text-[40px] text-[#374151] font-bold">
                   Calculateur <br className="breakClass" />
                   Vente - Reprogrammation
                 </h1>
-                <h2 className="text-3xl font-bold my-3">
+                <h2 className="text-3xl font-bold my-3 text-[#374151]">
                   Boites automatiques DC4{" "}
-                  <span className="bannerCodeSpan"> - 6DCT250</span>
+                  <span className="bannerCodeSpan text-[#374151]">
+                    {" "}
+                    - 6DCT250
+                  </span>
                 </h2>
-                <h2 className="text-3xl font-bold my-3">
+                <h2 className="text-3xl font-bold my-3 text-[#374151]">
                   Renault - Ford pour vehicules :
                 </h2>
 
