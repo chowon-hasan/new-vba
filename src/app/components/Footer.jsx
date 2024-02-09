@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <section>
       <div className="container mx-auto">
-        <hr className="border border-[#c9c9c9]" />
+        <hr className="border border-[#A3C5E8]" />
         {/* <hr className="mt-[3px] border border-[#c9c9c9]" /> */}
         <footer className="myFooter bg-[#ffffff] border-[#c9c9c9] text-black py-4 ">
           <div className="md:flex flex-wrap justify-between gap-4">
@@ -55,27 +55,28 @@ const Footer = () => {
             <div className="text-center footerMid">
               <div>
                 <Link
-                  className="hover:text-[#EE9D35] font-bold text-[16px]"
+                  className="hover:text-[#EE9D35]  text-[16px]"
                   href="/produits"
                 >
                   Produits -
                 </Link>
                 <Link
-                  className="hover:text-[#EE9D35] font-bold text-[16px]"
-                  href="/prestations/aide-en-ligne"
-                >
-                  {" "}
-                  Aide -
-                </Link>
-                <Link
-                  className="hover:text-[#EE9D35] font-bold text-[16px]"
+                  className="hover:text-[#EE9D35]  text-[16px]"
                   href="/prestations/installation"
                 >
                   {" "}
                   Installation -
                 </Link>
                 <Link
-                  className="hover:text-[#EE9D35] font-bold text-[16px]"
+                  className="hover:text-[#EE9D35]  text-[16px]"
+                  href="/aide-en-ligne"
+                >
+                  {" "}
+                  Aide -
+                </Link>
+
+                <Link
+                  className="hover:text-[#EE9D35]  text-[16px]"
                   href="/contact"
                 >
                   {" "}

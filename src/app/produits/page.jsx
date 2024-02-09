@@ -11,7 +11,7 @@ const HeadingText = "Types de calculateur boite automatique Renault ";
 
 export default function Produits() {
   return (
-    <section className="produits1" style={{ padding: "100px 0" }}>
+    <section className="produits1" style={{ padding: "140px 0 60px 0" }}>
       <div className="container mx-auto">
         <div className="product3rdCont">
           <Head>
@@ -25,17 +25,17 @@ export default function Produits() {
           </div>
           <main className="flex  flex-col z-20 relative">
             <div className="productTitle mx-auto">
-              <div className="product bg-[#ee9e35c4] py-4 text-center rounded-md">
-                <h2 className="subTitleText font-bold text-white">
+              <div className="product border border-orangevba bg-[#F5F4F4] py-4 text-center rounded-md">
+                <h2 className="subTitleText font-bold text-[#374151]">
                   Trouvez Ici votre
                 </h2>
-                <h1 className="headingText font-bold  my-1 text-white">
+                <h1 className="headingText font-bold  my-1 text-[#374151]">
                   Calculateur de boite automatique
                 </h1>
-                <h2 className="subTitleText font-bold text-white">
+                <h2 className="subTitleText font-bold text-[#374151]">
                   Renault - Ford
                 </h2>
-                <h3 className="font-bold mt-4 text-white">
+                <h3 className="font-bold mt-4 text-[#374151]">
                   Vérifiez la disponibilité
                 </h3>
               </div>
@@ -43,7 +43,7 @@ export default function Produits() {
 
             <div className="productscards grid grid-cols-3 justify-center gap-5 mt-5">
               {/* Produits */}
-              <div className="lg:w-full rounded-md shadow-2xl p-5 singleProductCard">
+              <div className="lg:w-full rounded-md shadow-2xl p-5 singleProductCard border border-orangevba">
                 <img
                   src="https://cdn.discordapp.com/attachments/878674914268311625/1195467343338414080/image-removebg-preview_2.png?ex=65b418b9&is=65a1a3b9&hm=ad53e7617b50737997033def5eef3070494854056e293870a4cc49d931461640&" // Remplacez par le bon chemin de l'image
                   alt="Calculateur avec carton"
@@ -53,7 +53,7 @@ export default function Produits() {
 
                 <div className="flex  mb-3  justify-center">
                   <h2
-                    className={`mt-3 text-2xl font-semibold text-center transition-transform `}
+                    className={`mt-3 text-2xl font-semibold text-center transition-transform text-[#374151]`}
                   >
                     Renault Captur
                   </h2>
@@ -106,7 +106,7 @@ export default function Produits() {
               </div>
 
               {/* Produit 2 */}
-              <div className="lg:w-full rounded-md shadow-2xl p-5 bg-white singleProductCard">
+              <div className="lg:w-full rounded-md shadow-2xl p-5 bg-white singleProductCard border border-orangevba">
                 <img
                   src="https://cdn.discordapp.com/attachments/878674914268311625/1195467343338414080/image-removebg-preview_2.png?ex=65b418b9&is=65a1a3b9&hm=ad53e7617b50737997033def5eef3070494854056e293870a4cc49d931461640&" // Remplacez par le bon chemin de l'image
                   alt="Calculateur avec carton"
@@ -115,7 +115,7 @@ export default function Produits() {
                 />
                 <div className="flex  mb-3  justify-center">
                   <h2
-                    className={`mt-3 text-2xl font-semibold text-center transition-transform `}
+                    className={`mt-3 text-2xl font-semibold text-center transition-transform text-[#374151]`}
                   >
                     Renault Clio IV
                   </h2>
@@ -167,7 +167,7 @@ export default function Produits() {
               </div>
 
               {/* Produit 3 */}
-              <div className="lg:w-full rounded-md shadow-2xl p-5 bg-white singleProductCard">
+              <div className="lg:w-full rounded-md shadow-2xl p-5 bg-white singleProductCard border border-orangevba">
                 <img
                   src="https://cdn.discordapp.com/attachments/878674914268311625/1195467343338414080/image-removebg-preview_2.png?ex=65b418b9&is=65a1a3b9&hm=ad53e7617b50737997033def5eef3070494854056e293870a4cc49d931461640&" // Remplacez par le bon chemin de l'image
                   alt="Calculateur avec carton"
@@ -176,7 +176,7 @@ export default function Produits() {
                 />
                 <div className="flex  mb-3  justify-center">
                   <h2
-                    className={`mt-3 text-2xl font-semibold text-center transition-transform `}
+                    className={`mt-3 text-2xl font-semibold text-center transition-transform text-[#374151]`}
                   >
                     Renault Mégane
                   </h2>
@@ -231,7 +231,7 @@ export default function Produits() {
               </div>
 
               {/* Produit 4 */}
-              <div className="lg:w-full rounded-md shadow-2xl p-5 bg-white singleProductCard">
+              <div className="lg:w-full rounded-md shadow-2xl p-5 bg-white singleProductCard border border-orangevba">
                 <img
                   src="https://cdn.discordapp.com/attachments/878674914268311625/1195467343338414080/image-removebg-preview_2.png?ex=65b418b9&is=65a1a3b9&hm=ad53e7617b50737997033def5eef3070494854056e293870a4cc49d931461640&" // Remplacez par le bon chemin de l'image
                   alt="Calculateur avec carton"
@@ -240,7 +240,7 @@ export default function Produits() {
                 />
                 <div className="flex  mb-3  justify-center">
                   <h2
-                    className={`mt-3 text-2xl font-semibold text-center transition-transform `}
+                    className={`mt-3 text-2xl font-semibold text-center transition-transform text-[#374151]`}
                   >
                     Renault Scénic
                   </h2>
@@ -293,7 +293,7 @@ export default function Produits() {
               </div>
 
               {/* Produit 5 */}
-              <div className="lg:w-full rounded-md shadow-2xl p-5 bg-white singleProductCard">
+              <div className="lg:w-full rounded-md shadow-2xl p-5 bg-white singleProductCard border border-orangevba">
                 <img
                   src="https://cdn.discordapp.com/attachments/878674914268311625/1195467343338414080/image-removebg-preview_2.png?ex=65b418b9&is=65a1a3b9&hm=ad53e7617b50737997033def5eef3070494854056e293870a4cc49d931461640&" // Remplacez par le bon chemin de l'image
                   alt="Calculateur avec carton"
@@ -302,7 +302,7 @@ export default function Produits() {
                 />
                 <div className="flex  mb-3  justify-center">
                   <h2
-                    className={`mt-3 text-2xl font-semibold text-center transition-transform `}
+                    className={`mt-3 text-2xl font-semibold text-center transition-transform text-[#374151]`}
                   >
                     Renault Fluence
                   </h2>
@@ -358,7 +358,7 @@ export default function Produits() {
 
               {/* Product 6 */}
 
-              <div className="lg:w-full rounded-md shadow-2xl p-5 bg-white singleProductCard">
+              <div className="lg:w-full rounded-md shadow-2xl p-5 bg-white singleProductCard border border-orangevba">
                 <img
                   src="https://cdn.discordapp.com/attachments/878674914268311625/1195467343338414080/image-removebg-preview_2.png?ex=65b418b9&is=65a1a3b9&hm=ad53e7617b50737997033def5eef3070494854056e293870a4cc49d931461640&" // Remplacez par le bon chemin de l'image
                   alt="Calculateur avec carton"
@@ -367,7 +367,7 @@ export default function Produits() {
                 />
                 <div className="flex  mb-3  justify-center">
                   <h2
-                    className={`mt-3 text-2xl font-semibold text-center transition-transform `}
+                    className={`mt-3 text-2xl font-semibold text-center transition-transform text-[#374151]`}
                   >
                     Ford Focus
                   </h2>

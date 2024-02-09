@@ -66,7 +66,7 @@ const Contact = () => {
   return (
     <section className="produits installation">
       <div className="relative">
-        <div className="flex flex-col  items-center justify-center min-h-screen">
+        <div className="flex flex-col  items-center justify-center min-h-[95vh]">
           <Head>
             <title>
               Contactez-nous VBA calculateur Renault boite automatique
@@ -75,20 +75,18 @@ const Contact = () => {
             <meta name="headline" content={HeadingText} />
           </Head>
 
-          <div className="conatctTitleBody bg-[#ee9e35c4] md:w-[846px] py-4 text-center rounded-md mb-5">
-            <h1 className="contactFormTitle font-bold  my-3 text-white">
-              Contactez-nous
-            </h1>
+          <div className="conatctTitleBody border border-orangevba bg-[#F5F4F4] text-[#374151] md:w-[846px] py-5 text-center rounded-md mb-5">
+            <h1 className="contactFormTitle font-bold ">Contactez-nous</h1>
           </div>
 
           <div className="contactForm md:w-[846px]">
             <form
               onSubmit={handleSubmit}
-              className="w-full z-20 shadow-xl border-2 border-orangevba p-4 bg-white/95 rounded-2xl"
+              className="w-full z-20 shadow-xl border border-orangevba p-4 bg-white/95 rounded-md"
             >
-              <h1 className="text-2xl text-center text-gray-500 font-bold mb-4">
+              {/* <h1 className="text-2xl text-center text-[#090909]s font-bold mb-4">
                 Contactez-nous
-              </h1>
+              </h1> */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {/* Nom et Prénom */}
                 <div className="mb-4">

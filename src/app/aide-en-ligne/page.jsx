@@ -303,10 +303,10 @@ const MiseEnLigne = () => {
   };
 
   return (
-    <section className="py-[60px] checker">
+    <section className="py-[80px] checker">
       <div className="md:px-24 mx-auto">
         .
-        <h2 className="md:w-[350px] mx-auto mt-8  p-4 rounded-2xl bg-[#ee9e35c4] text-white text-[30px] font-semibold  text-center">
+        <h2 className="md:w-[350px] mx-auto mt-8  p-4 rounded-md border border-orangevba bg-[#F5F4F4] text-[#374151] text-[30px] font-semibold  text-center">
           - Aide en ligne -
         </h2>
         {/* Conteneur principal */}
@@ -327,7 +327,7 @@ const MiseEnLigne = () => {
               <p className="mb-6 ">
                 Les boites automatiques (modèles DC4 et 6DCT250) couramment
                 installées dans les véhicules
-                <a className="font-bold " href="/produits">
+                <a className="font-bold text-[#374151]" href="/produits">
                   {" "}
                   Renault Captur, Mégane, Scénic, Clio 4, Fluence{" "}
                 </a>{" "}
@@ -337,31 +337,43 @@ const MiseEnLigne = () => {
               <ul className="list-disc pl-6  mb-6">
                 <li>
                   d’un{" "}
-                  <a className="font-semibold cursor-text">
+                  <a className="font-semibold cursor-text text-[#374151]">
                     double embrayage à sec.
                   </a>{" "}
                 </li>
                 <li>
                   d’un{" "}
-                  <a className="font-semibold cursor-text">volant moteur.</a>
+                  <a className="font-semibold cursor-text text-[#374151]">
+                    volant moteur.
+                  </a>
                 </li>
                 <li>
-                  de <a className="font-semibold cursor-text">synchros</a>{" "}
+                  de{" "}
+                  <a className="font-semibold cursor-text text-[#374151]">
+                    synchros
+                  </a>{" "}
                 </li>
                 <li>
-                  d'un <a className="font-semibold cursor-text">calculateur.</a>{" "}
+                  d'un{" "}
+                  <a className="font-semibold cursor-text text-[#374151]">
+                    calculateur.
+                  </a>{" "}
                 </li>
               </ul>
 
               <p className="">
                 Nous avons observé que les calculateurs de ces modèles peuvent
                 présenter des défaillances en <br /> dessous de{" "}
-                <a className="font-bold underline cursor-text">120 000 km</a> .
-                De plus, il est fréquent que le double embrayage et le volant
+                <a className="font-bold underline cursor-text text-[#374151]">
+                  120 000 km
+                </a>{" "}
+                . De plus, il est fréquent que le double embrayage et le volant
                 moteur commencent à montrer des signes d'usure à partir de{" "}
-                <a className="font-bold underline cursor-text">150 000 km</a>.
-                Pour anticiper et résoudre ces problèmes, nous pouvons{" "}
-                <a className="font-bold underline cursor-text">
+                <a className="font-bold underline cursor-text text-[#374151]">
+                  150 000 km
+                </a>
+                . Pour anticiper et résoudre ces problèmes, nous pouvons{" "}
+                <a className="font-bold underline cursor-text text-[#374151]">
                   vérifier l'état précis de l'embrayage
                 </a>{" "}
                 grâce à un équipement de diagnostic spécialisé.
@@ -372,7 +384,7 @@ const MiseEnLigne = () => {
             <div className="md:w-[420px] mt-8">
               {/* Barre de recherche */}
               <div className="md:w-[330px]">
-                <p className="bg-[#EE9D35] text-white items-center text-[16px] border border-1 rounded border-[#EE9D35]  mx-auto p-2 mb-3">
+                <p className="bg-[#EE9D35] text-white items-center text-[16px] border border-1 rounded-md border-[#EE9D35]  mx-auto p-2 mb-3">
                   Rechercher code erreur ou description:{" "}
                 </p>
                 <div className="">
@@ -381,13 +393,13 @@ const MiseEnLigne = () => {
                     placeholder="Code erreur ou description"
                     value={searchTerm}
                     onChange={handleChange}
-                    className="SearchInput w-full p-2 border border-gray-300 mb-4 rounded text-[16px]"
+                    className="SearchInput w-full p-2 border border-gray-300 mb-4 rounded-md text-[16px]"
                   />
 
                   <div className="researchBitton">
                     <button
                       onClick={handleSearch}
-                      className="bg-[#EE9D35] text-[16px] text-white py-[10px] px-[40px] rounded-md hover:bg-[#B1D8FF] hover:text-black"
+                      className="bg-[#EE9D35] text-[16px] text-white py-[9px] px-[40px] rounded-md hover:bg-[#B1D8FF] hover:text-black"
                     >
                       Rechercher
                     </button>
@@ -404,9 +416,9 @@ const MiseEnLigne = () => {
                       {filteredCodes.map((code) => (
                         <div
                           key={code.code}
-                          className="mb-4 p-4 border border-orangevba"
+                          className="mb-4 p-4 border rounded-lg border-orangevba"
                         >
-                          <p className="font-bold text-md text-[16px]">
+                          <p className="font-bold text-md text-[16px] text-[#374151]">
                             {code.code}
                           </p>
                           <p
@@ -418,14 +430,14 @@ const MiseEnLigne = () => {
                           <p className="mb-2 italic text-[14px] text-gray-500">
                             {code.subTitle}
                           </p>
-                          <span className="text-[16px]">
+                          <span className="text-[15px]">
                             Cliquer{" "}
                             <a
                               href="#"
-                              className=" font-semibold text-orangevba"
+                              className=" font-semibold text-[#287FFE]"
                               onClick={() => toggleRecommendation(code.code)}
                             >
-                              Ici
+                              ici
                             </a>{" "}
                             pour obtenir de l'aide
                           </span>

@@ -34,11 +34,12 @@ export default function Header() {
 
   const closeNavbar = () => {
     setNavbar(false);
+    setPrestationDropdown(false);
   };
 
   return (
     <section className="bg-white/90 fixed w-full z-50 headerSection">
-      <div className="container mx-auto border-[#c9c9c9]">
+      <div className="container mx-auto border-[#A3C5E8]">
         <nav className="">
           <div className="flex flex-wrap items-center justify-between mx-auto py-3 headerMainCont">
             <Link href="/" className="">
@@ -184,7 +185,7 @@ export default function Header() {
             </div>
           </div>
         </nav>
-        <hr className="border border-[#c9c9c9]" />
+        <hr className="border border-[#A3C5E8]" />
         {/* <hr className="mt-[3px] border border-[#c9c9c9]" /> */}
       </div>
     </section>
