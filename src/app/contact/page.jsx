@@ -75,14 +75,14 @@ const Contact = () => {
             <meta name="headline" content={HeadingText} />
           </Head>
 
-          <div className="conatctTitleBody border border-orangevba bg-[#F5F4F4] text-[#374151] md:w-[846px] py-5 text-center rounded-md mb-5">
+          <div className="conatctTitleBody border border-orangevba bg-[#f5f4f4e3] text-[#374151] md:w-[846px] py-5 text-center rounded-md mb-5">
             <h1 className="contactFormTitle font-bold ">Contactez-nous</h1>
           </div>
 
           <div className="contactForm md:w-[846px]">
             <form
               onSubmit={handleSubmit}
-              className="w-full z-20 shadow-xl border border-orangevba p-4 bg-white/95 rounded-md"
+              className="w-full z-20 shadow-xl border border-orangevba p-4 bg-[#f5f4f4e3] rounded-md"
             >
               {/* <h1 className="text-2xl text-center text-[#090909]s font-bold mb-4">
                 Contactez-nous

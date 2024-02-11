@@ -34,7 +34,7 @@ const Home = () => {
           </Head>
 
           <div style={{ display: "none" }}>
-            <h1>Vente et reprogrammation de calculateur Renault DC4</h1>
+            <h1>Vente et reprogrammation de calculateur DC4</h1>
             <h2>calculateur boite automatique Renault Captur</h2>
             <h2>calculateur boite automatique Renault Clio 4</h2>
             <h2>calculateur boite automatique Renault Mégane</h2>

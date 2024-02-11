@@ -75,7 +75,7 @@ const AutreFormulaire = () => {
               <h1>Installation montage remontage calculateur Renault</h1>
             </div>
 
-            <div className="installTitle text-2xl text-center mb-5 mt-8 lg:mx-16 bg-[#FAF9F8] border border-orangevba  z-20 rounded-md p-3">
+            <div className="installTitle text-2xl text-center mb-5 mt-8 lg:mx-16 bg-[#f5f4f4e3] border border-orangevba  z-20 rounded-md p-3">
               <div className="instalLaptop text-[#374151]">
                 <p>Montage, démontage et reprogrammation du calculateur </p>
                 <a href="/produits" className="font-bold">
@@ -114,7 +114,7 @@ const AutreFormulaire = () => {
             <div className="installForm">
               <form
                 onSubmit={handleSubmit}
-                className="h-full z-20 shadow-xl  mb-10 p-4 bg-white/95 border border-orangevba rounded-md"
+                className="h-full z-20 shadow-xl  mb-10 p-4 bg-[#f5f4f4e3] border border-orangevba rounded-md"
               >
                 <h1 className="sr-only">
                   Montage démontage installation calculateur boîte automatique

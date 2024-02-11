@@ -25,7 +25,7 @@ export default function Produits() {
           </div>
           <main className="flex  flex-col z-20 relative">
             <div className="productTitle mx-auto">
-              <div className="product border border-orangevba bg-[#F5F4F4] py-4 text-center rounded-md">
+              <div className="product border border-orangevba bg-[#f5f4f4d6] py-4 text-center rounded-md">
                 <h2 className="subTitleText font-bold text-[#374151]">
                   Trouvez Ici votre
                 </h2>

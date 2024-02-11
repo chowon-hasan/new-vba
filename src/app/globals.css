@@ -186,7 +186,7 @@ nextjs-portal {
 
   font-size: 16px;
   border: 1px solid #ee9d35;
-  background-color: #f5f4f4;
+  background-color: #f5f4f4cc;
   padding: 15px;
   margin: 40px 0;
   border-radius: 10px;
@@ -223,12 +223,11 @@ nextjs-portal {
   font-size: 22px;
 }
 .singleProductCard {
-  background-color: #f5f4f4;
+  background-color: #f5f4f4d6;
 }
 .SearchInput {
-  background-color: #f5f4f4;
+  background-color: #f5f4f4cc;
 }
-
 /* ========================
 =========================== */
 @media screen and (min-width: 1024px) and (max-width: 1439px) {

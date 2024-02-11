@@ -306,7 +306,7 @@ const MiseEnLigne = () => {
     <section className="py-[80px] checker">
       <div className="md:px-24 mx-auto">
         .
-        <h2 className="md:w-[350px] mx-auto mt-8  p-4 rounded-md border border-orangevba bg-[#F5F4F4] text-[#374151] text-[30px] font-semibold  text-center">
+        <h2 className="md:w-[350px] mx-auto mt-8  p-4 rounded-md border border-orangevba bg-[#f5f4f4cc] text-[#374151] text-[30px] font-semibold  text-center">
           - Aide en ligne -
         </h2>
         {/* Conteneur principal */}

@@ -11,8 +11,8 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <section>
+      <hr className="border border-[#cfcfcf]" />
       <div className="container mx-auto">
-        <hr className="border border-[#A3C5E8]" />
         {/* <hr className="mt-[3px] border border-[#c9c9c9]" /> */}
         <footer className="myFooter bg-[#ffffff] border-[#c9c9c9] text-black py-4 ">
           <div className="md:flex flex-wrap justify-between gap-4">

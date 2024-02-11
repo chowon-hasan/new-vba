@@ -38,8 +38,8 @@ export default function Header() {
   };
 
   return (
-    <section className="bg-white/90 fixed w-full z-50 headerSection">
-      <div className="container mx-auto border-[#A3C5E8]">
+    <section className="bg-white/90 fixed w-full z-50 headerSection ">
+      <div className="container mx-auto">
         <nav className="">
           <div className="flex flex-wrap items-center justify-between mx-auto py-3 headerMainCont">
             <Link href="/" className="">
@@ -185,9 +185,10 @@ export default function Header() {
             </div>
           </div>
         </nav>
-        <hr className="border border-[#A3C5E8]" />
+
         {/* <hr className="mt-[3px] border border-[#c9c9c9]" /> */}
       </div>
+      <hr className="border border-[#cfcfcf]" />
     </section>
   );
 }
